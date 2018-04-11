@@ -2,7 +2,7 @@
 #Open Iris data set and create Scatter Plot of features. 
 
 import matplotlib.pyplot as plt
-import numpy as np 
+
 
 SL = []#create empty list for Sepal Length
 SW = []#create empty list for Sepal Width
