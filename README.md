@@ -13,3 +13,8 @@ Irisscatter.py imports Iris data set and splits the data of features in lists. T
 <br>
 <img height="500" src=https://github.com/healyshane/Project_IRIS/blob/master/Iris%20scatter%20plot.png/>
 <br>
+
+
+Iristoints.py imports Iris data set, splits the data in lists and converts the Iris species names from strings to integers. 
+This results in a more consise data set that is easier to analyse. 
+The conversion is Iris-setosa  = o, Iris-versicolor = 1 and Iris-virginica = 2.
