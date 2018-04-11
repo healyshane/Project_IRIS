@@ -10,4 +10,6 @@ Fishers iris data set (REF 1) describes the features from fifty samples from eac
 Fisher created a model to distinguish between the species.
 
 Irisscatter.py imports Iris data set and splits the data in lists. These lists are shown in a scatter plot. 
-https://github.com/healyshane/Project_IRIS/blob/master/Iris%20scatter%20plot.png
+<br>
+<img height="700" src=https://github.com/healyshane/Project_IRIS/blob/master/Iris%20scatter%20plot.png/>
+<br>
