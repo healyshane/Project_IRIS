@@ -2,13 +2,16 @@
 Programming and Scripting Project APR2018
 
 ## Background
-Fishers iris data set<sup>[1](#myfootnote1)</sup> describes the features from fifty samples from each of three species of Iris, *Iris setosa*, *Iris virginica* and *Iris versicolor*. The features, measured in cm are:
+Fishers Iris data set<sup>[1](#myfootnote1)</sup> describes the features from fifty samples from each of three species of Iris, *Iris setosa*, *Iris virginica* and *Iris versicolor*. The features, measured in cm are:
 *	Sepal Length
 *	Sepal width
 *	Petal length
 *	Petal width  
 
-Fisher created a model to distinguish between the species.set<sup>[2](#myfootnote2)</sup>
+Sir Ronald Fisher was a British statistician and geneticist. He helped create the foundation for modern statistical science and in 1936 he introduced the Iris flower data set as an example of discriminant analysis<sup>[2](#myfootnote2)</sup>.  
+Fisher used linear discriminant analysis to classify Iris species based on four features.  
+Linear discriminant analysis is a method used in statistics, pattern recognition and machine learning. The function is to find a linear combination of features that characterizes or separates two or more classes of objects. The resulting combination may be used to classify the objects<sup>[3](#myfootnote3)</sup>.
+
 
 Irisscatter.py imports Iris data set and splits the data of features in lists. These lists are shown in a scatter plot. 
 <br>
@@ -25,5 +28,6 @@ The conversion is Iris-setosa  = o, Iris-versicolor = 1 and Iris-virginica = 2.
 
 ## References
 <a name="myfootnote1">1</a>: Wikipedia, Iris flower data set , https://en.wikipedia.org/wiki/Iris_flower_data_set  
-<a name="myfootnote2">2</a>: Google, https://www.google.com/
+<a name="myfootnote2">2</a>: Wikipedia, Ronald Fisher, https://en.wikipedia.org/wiki/Ronald_Fisher  
+<a name="myfootnote3">3</a>: Widipedia, Linear discriminant analysis,  https://en.wikipedia.org/wiki/Linear_discriminant_analysis
 
