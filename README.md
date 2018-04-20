@@ -7,7 +7,13 @@ Fishers Iris data set<sup>[1](#myfootnote1)</sup> describes the features from fi
 *	Petal length
 *	Petal width  
 
-The Iris data set is real data
+The Iris data set is real data  
+|Sepal Length(cm)|Sepal Width(cm)|Petal Length(cm)|Petal Width(cm)|Class|
+|:--------------:|:-------------:|:--------------:|:-------------:|:------------:|
+|5.1|3.5|1.4|0.2|Iris-setosa|
+2 4.9 3.0 1.4 0.2 Iris-setosa 
+3 4.7 3.2 1.3 0.2 Iris-setosa
+
 
 Sir Ronald Fisher was a British statistician and geneticist. He helped create the foundation for modern statistical science and in 1936 he introduced the Iris flower data set as an example of discriminant analysis<sup>[2](#myfootnote2)</sup>.  
 Fisher used linear discriminant analysis to classify Iris species based on four features.  
