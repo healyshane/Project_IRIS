@@ -8,6 +8,10 @@ Fishers iris data set <sup>1</sup> describes the features from fifty samples fro
 *	Petal length
 *	Petal width
 
+<a name="myfootnote1">1</a>: Footnote content goes here 
+
+<sup>[1](#myfootnote1)</sup>
+
 Fisher created a model to distinguish between the species.
 
 Irisscatter.py imports Iris data set and splits the data of features in lists. These lists are shown in a scatter plot. 
