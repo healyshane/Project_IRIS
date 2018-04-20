@@ -7,15 +7,9 @@ Fishers Iris data set<sup>[1](#myfootnote1)</sup> describes the features from fi
 *	Petal length
 *	Petal width  
 
-First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
-
-The Iris data set is real data  
-| Sepal Length(cm) |Sepal Width(cm) |Petal Length(cm) |Petal Width(cm) | Class |
-| :--------------: | :-------------: | :--------------: | :-------------: | :------------: |
-| 5.1 | 3.5 | 1.4 | 0.2 | Iris-setosa |
+Sepal Length(cm) | Sepal Width(cm) | Petal Length(cm) | Petal Width(cm) | Class 
+---------------- | --------------- | ---------------- | --------------- | -------------------
+5.1 | 3.5 | 1.4 | 0.2 | Iris-setosa
 2 4.9 3.0 1.4 0.2 Iris-setosa 
 3 4.7 3.2 1.3 0.2 Iris-setosa
 
