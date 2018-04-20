@@ -28,5 +28,5 @@ The conversion is Iris-setosa  = o, Iris-versicolor = 1 and Iris-virginica = 2.
 ## References
 <a name="myfootnote1">1</a>: Wikipedia, Iris flower data set , https://en.wikipedia.org/wiki/Iris_flower_data_set  
 <a name="myfootnote2">2</a>: Wikipedia, Ronald Fisher, https://en.wikipedia.org/wiki/Ronald_Fisher  
-<a name="myfootnote3">3</a>: Widipedia, Linear discriminant analysis,  https://en.wikipedia.org/wiki/Linear_discriminant_analysis
+<a name="myfootnote3">3</a>: Wikipedia, Linear discriminant analysis,  https://en.wikipedia.org/wiki/Linear_discriminant_analysis
 
