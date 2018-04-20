@@ -2,7 +2,7 @@
 Programming and Scripting Project APR2018
 
 ## Background
-Fishers iris data set (REF 1) describes the features from fifty samples from each of three species of Iris, *Iris setosa*, *Iris virginica* and *Iris versicolor*. The features, measured in cm are:
+Fishers iris data set <sup>1</sup> describes the features from fifty samples from each of three species of Iris, *Iris setosa*, *Iris virginica* and *Iris versicolor*. The features, measured in cm are:
 *	Sepal Length
 *	Sepal width
 *	Petal length
