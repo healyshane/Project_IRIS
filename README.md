@@ -1,5 +1,4 @@
-# Project_IRIS
-Programming and Scripting Project APR2018
+# Programming and Scripting Project APR2018 - Iris Data Set
 
 ## Background
 Fishers Iris data set<sup>[1](#myfootnote1)</sup> describes the features from fifty samples from each of three species of Iris, *Iris setosa*, *Iris virginica* and *Iris versicolor*. The features, measured in cm are:
