@@ -2,15 +2,11 @@
 Programming and Scripting Project APR2018
 
 ## Background
-Fishers iris data set <sup>1</sup> describes the features from fifty samples from each of three species of Iris, *Iris setosa*, *Iris virginica* and *Iris versicolor*. The features, measured in cm are:
+Fishers iris data set<sup>[1](#myfootnote1)</sup> describes the features from fifty samples from each of three species of Iris, *Iris setosa*, *Iris virginica* and *Iris versicolor*. The features, measured in cm are:
 *	Sepal Length
 *	Sepal width
 *	Petal length
 *	Petal width
-
-<a name="myfootnote1">1</a>: Footnote content goes here 
-
-<sup>[1](#myfootnote1)</sup>
 
 Fisher created a model to distinguish between the species.
 
@@ -28,5 +24,5 @@ The conversion is Iris-setosa  = o, Iris-versicolor = 1 and Iris-virginica = 2.
 
 
 ## References
-1. Wikipedia, Iris flower data set , https://en.wikipedia.org/wiki/Iris_flower_data_set
+1. <a name="myfootnote1">1</a>: Wikipedia, Iris flower data set , https://en.wikipedia.org/wiki/Iris_flower_data_set
 2. 
