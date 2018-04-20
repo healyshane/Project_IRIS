@@ -1,15 +1,15 @@
 # Programming and Scripting Project APR2018 - Iris Data Set
 
 ## Background
-Fishers Iris data set<sup>[1](#myfootnote1)</sup> describes the features from fifty samples from each of three species of Iris, *Iris setosa*, *Iris virginica* and *Iris versicolor*. The features, measured in cm are:
+Fishers Iris data set<sup>[1](#myfootnote1)</sup> describes the features from fifty samples from each of three classes of Iris, *Iris setosa*, *Iris virginica* and *Iris versicolor*. The features, measured in cm are:
 *	Sepal Length
 *	Sepal width
 *	Petal length
 *	Petal width  
 
-The [Iris data set](https://github.com/healyshane/Project_IRIS/blob/master/iris.csv) is a real data set, an example of the features for each of the three species is shown in the table below.
+The [Iris data set](https://github.com/healyshane/Project_IRIS/blob/master/iris.csv) is a real data set, an example of the features for each of the three classes is shown in the table below.
 
-Sepal Length(cm) | Sepal Width(cm) | Petal Length(cm) | Petal Width(cm) | Species 
+Sepal Length(cm) | Sepal Width(cm) | Petal Length(cm) | Petal Width(cm) | Class 
 :--------------: | :-------------: | :--------------: | :-------------: | :-----------------:
 5.1 | 3.5 | 1.4 | 0.2 | *Iris-setosa*
 7 |	3.2 |	4.7	| 1.4	| *Iris-versicolor*	
@@ -18,12 +18,12 @@ Sepal Length(cm) | Sepal Width(cm) | Petal Length(cm) | Petal Width(cm) | Specie
 
 
 Sir Ronald Fisher was a British statistician and geneticist. He helped create the foundation for modern statistical science and in 1936 he introduced the Iris flower data set as an example of discriminant analysis<sup>[2](#myfootnote2)</sup>.  
-Fisher used linear discriminant analysis to classify Iris species based on four features.  
+Fisher used linear discriminant analysis to classify Iris class based on four features.  
 
 Linear discriminant analysis is a method used in statistics, pattern recognition and machine learning. The function is to find a linear combination of features that characterizes or separates two or more classes of objects. The resulting combination may be used to classify the objects<sup>[3](#myfootnote3)</sup>.
 
 
-Irisscatter.py imports Iris data set and splits the data of features in lists. These lists are shown in a scatter plot. 
+[Irisscatter.py](https://github.com/healyshane/Project_IRIS/blob/master/irisscatter.py) imports the Iris data set and splits the data of features in lists. These lists are shown in a scatter plot. *Iris setosa* appears to be easily distinguished, however overlapping of features for other classes is evident.  
 <br>
 <img height="500" src=https://github.com/healyshane/Project_IRIS/blob/master/Iris%20scatter%20plot.png/>
 <br>
