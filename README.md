@@ -8,10 +8,11 @@ Fishers Iris data set<sup>[1](#myfootnote1)</sup> describes the features from fi
 *	Petal width  
 
 Sepal Length(cm) | Sepal Width(cm) | Petal Length(cm) | Petal Width(cm) | Class 
+(cm)
 :--------------: | :-------------: | :--------------: | :-------------: | :-----------------:
-5.1 | 3.5 | 1.4 | 0.2 | Iris-setosa
-7 |	3.2 |	4.7	| 1.4	| Iris-versicolor	
-6.3 | 3.3 |	6 |	2.5	Iris-virginica
+5.1 | 3.5 | 1.4 | 0.2 | *Iris-setosa*
+7 |	3.2 |	4.7	| 1.4	| *Iris-versicolor*	
+6.3 | 3.3 |	6 |	2.5 |	*Iris-virginica*
 
 
 
