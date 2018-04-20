@@ -23,7 +23,7 @@ Fisher used linear discriminant analysis to classify Iris class based on four fe
 Linear discriminant analysis is a method used in statistics, pattern recognition and machine learning. The function is to find a linear combination of features that characterizes or separates two or more classes of objects. The resulting combination may be used to classify the objects<sup>[3](#myfootnote3)</sup>.
 
 
-[Irisscatter.py](https://github.com/healyshane/Project_IRIS/blob/master/irisscatter.py) imports the Iris data set and splits the data of features in lists. These lists are shown in a scatter plot. *Iris setosa* appears to be easily distinguished, however overlapping of features for other classes is evident.  
+[Irisscatter.py](https://github.com/healyshane/Project_IRIS/blob/master/irisscatter.py) imports the Iris data set and splits the data of features in lists. These lists are shown in a scatter plot. Overlapping of features for the different classes is evident.   
 <br>
 <img height="500" src=https://github.com/healyshane/Project_IRIS/blob/master/Iris%20scatter%20plot.png/>
 <br>
