@@ -1,12 +1,13 @@
 # Project_IRIS
 Programming and Scripting Project APR2018
 
-#Background
-Fishers iris data set (REF 1) describes the features from fifty samples from each of three species of Iris, Iris setosa, Iris virginica and Iris versicolor. The features, measured in cm are:
-•	Sepal Length
-•	Sepal width
-•	Petal length
-•	Petal width
+## Background
+Fishers iris data set (REF 1) describes the features from fifty samples from each of three species of Iris, *Iris setosa*, *Iris virginica* and *Iris versicolor*. The features, measured in cm are:
+*	Sepal Length
+*	Sepal width
+*	Petal length
+*	Petal width
+
 Fisher created a model to distinguish between the species.
 
 Irisscatter.py imports Iris data set and splits the data of features in lists. These lists are shown in a scatter plot. 
@@ -18,3 +19,10 @@ Irisscatter.py imports Iris data set and splits the data of features in lists. T
 Iristoints.py imports Iris data set, splits the data in lists and converts the Iris species names from strings to integers. 
 This results in a more consise data set that is easier to analyse. 
 The conversion is Iris-setosa  = o, Iris-versicolor = 1 and Iris-virginica = 2.
+
+
+
+
+## References
+1. Wikipedia, Iris flower data set , https://en.wikipedia.org/wiki/Iris_flower_data_set
+2. 
