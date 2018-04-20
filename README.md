@@ -7,6 +7,8 @@ Fishers Iris data set<sup>[1](#myfootnote1)</sup> describes the features from fi
 *	Petal length
 *	Petal width  
 
+The Iris data set is real data
+
 Sir Ronald Fisher was a British statistician and geneticist. He helped create the foundation for modern statistical science and in 1936 he introduced the Iris flower data set as an example of discriminant analysis<sup>[2](#myfootnote2)</sup>.  
 Fisher used linear discriminant analysis to classify Iris species based on four features.  
 Linear discriminant analysis is a method used in statistics, pattern recognition and machine learning. The function is to find a linear combination of features that characterizes or separates two or more classes of objects. The resulting combination may be used to classify the objects<sup>[3](#myfootnote3)</sup>.
