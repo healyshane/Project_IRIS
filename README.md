@@ -7,9 +7,9 @@ Fishers Iris data set<sup>[1](#myfootnote1)</sup> describes the features from fi
 *	Petal length
 *	Petal width  
 
-The [Iris data set]() is a real data set, an example of the features for each of the three species is shown in the table below.
+The [Iris data set](https://github.com/healyshane/Project_IRIS/blob/master/iris.csv) is a real data set, an example of the features for each of the three species is shown in the table below.
 
-Sepal Length(cm) | Sepal Width(cm) | Petal Length(cm) | Petal Width(cm) | Class 
+Sepal Length(cm) | Sepal Width(cm) | Petal Length(cm) | Petal Width(cm) | Species 
 :--------------: | :-------------: | :--------------: | :-------------: | :-----------------:
 5.1 | 3.5 | 1.4 | 0.2 | *Iris-setosa*
 7 |	3.2 |	4.7	| 1.4	| *Iris-versicolor*	
