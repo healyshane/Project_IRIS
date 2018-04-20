@@ -8,7 +8,7 @@ Fishers iris data set<sup>[1](#myfootnote1)</sup> describes the features from fi
 *	Petal length
 *	Petal width
 
-Fisher created a model to distinguish between the species.
+Fisher created a model to distinguish between the species.set<sup>[2](#myfootnote2)</sup>
 
 Irisscatter.py imports Iris data set and splits the data of features in lists. These lists are shown in a scatter plot. 
 <br>
@@ -25,4 +25,5 @@ The conversion is Iris-setosa  = o, Iris-versicolor = 1 and Iris-virginica = 2.
 
 ## References
 <a name="myfootnote1">1</a>: Wikipedia, Iris flower data set , https://en.wikipedia.org/wiki/Iris_flower_data_set
-2. 
+<a name="myfootnote2">2</a>: Google, https://www.google.com/
+
