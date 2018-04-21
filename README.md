@@ -7,7 +7,7 @@ Fishers Iris data set<sup>[1](#myfootnote1)</sup> describes the features from fi
 *	Petal length
 *	Petal width  
 
-The [Iris data set](https://github.com/healyshane/Project_IRIS/blob/master/iris.csv) is a real data set, an example of the features for each of the three classes is shown in the table below.
+The [Iris data set](https://github.com/healyshane/Project_IRIS/blob/master/iris.csv)<sup>[2](#myfootnote2)</sup> is a real data set, an example of the features for each of the three classes is shown in the table below.
 
 Sepal Length(cm) | Sepal Width(cm) | Petal Length(cm) | Petal Width(cm) | Class 
 :--------------: | :-------------: | :--------------: | :-------------: | :-----------------:
@@ -17,10 +17,10 @@ Sepal Length(cm) | Sepal Width(cm) | Petal Length(cm) | Petal Width(cm) | Class
 
 
 
-Sir Ronald Fisher was a British statistician and geneticist. He helped create the foundation for modern statistical science and in 1936 he introduced the Iris flower data set as an example of discriminant analysis<sup>[2](#myfootnote2)</sup>.  
+Sir Ronald Fisher was a British statistician and geneticist. He helped create the foundation for modern statistical science and in 1936 he introduced the Iris flower data set as an example of discriminant analysis<sup>[3](#myfootnote3)</sup>.  
 Fisher used linear discriminant analysis to classify Iris class based on four features.  
 
-Linear discriminant analysis is a method used in statistics, pattern recognition and machine learning. The function is to find a linear combination of features that characterizes or separates two or more classes of objects. The resulting combination may be used to classify the objects<sup>[3](#myfootnote3)</sup>.
+Linear discriminant analysis is a method used in statistics, pattern recognition and machine learning. The function is to find a linear combination of features that characterizes or separates two or more classes of objects. The resulting combination may be used to classify the objects<sup>[4](#myfootnote4)</sup>.
 
 
 [Irisscatter.py](https://github.com/healyshane/Project_IRIS/blob/master/irisscatter.py) imports the Iris data set and splits the data of features in lists. These lists are shown in a scatter plot. Overlapping of features for the different classes is evident.   
@@ -38,6 +38,8 @@ The conversion is *Iris-setosa*  = o, *Iris-versicolor* = 1 and *Iris-virginica*
 
 ## References
 <a name="myfootnote1">1</a>: Wikipedia, Iris flower data set , https://en.wikipedia.org/wiki/Iris_flower_data_set  
-<a name="myfootnote2">2</a>: Wikipedia, Ronald Fisher, https://en.wikipedia.org/wiki/Ronald_Fisher  
-<a name="myfootnote3">3</a>: Wikipedia, Linear discriminant analysis,  https://en.wikipedia.org/wiki/Linear_discriminant_analysis
+<a name="myfootnote2">2</a>: UCI, Machine Learning Repository, http://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data
+<a name="myfootnote3">3</a>: Wikipedia, Ronald Fisher, https://en.wikipedia.org/wiki/Ronald_Fisher  
+<a name="myfootnote4">4</a>: Wikipedia, Linear discriminant analysis,  https://en.wikipedia.org/wiki/Linear_discriminant_analysis  
+
 
