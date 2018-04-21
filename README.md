@@ -33,7 +33,10 @@ Iristoints.py imports Iris data set, splits the data in lists and converts the I
 This results in a more consise data set that is easier to analyse. 
 The conversion is Iris-setosa  = o, Iris-versicolor = 1 and Iris-virginica = 2.
 
-
+- [x] create a post.
+- [x] create a page.
+- [x] add images.
+- [ ] published the post.
 
 
 ## References
