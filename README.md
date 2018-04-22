@@ -42,7 +42,10 @@ Iristoints.py imports Iris data set, splits the data in lists and converts the I
 This results in a more consise data set that is easier to analyse. 
 The conversion is *Iris-setosa*  = o, *Iris-versicolor* = 1 and *Iris-virginica* = 2.
 
-
+```python
+s = "Python syntax highlighting"
+print s
+```
 
 
 ## References
