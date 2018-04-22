@@ -20,14 +20,24 @@ Sepal Length(cm) | Sepal Width(cm) | Petal Length(cm) | Petal Width(cm) | Class
 Sir Ronald Fisher was a British statistician and geneticist. He helped create the foundation for modern statistical science and in 1936 he introduced the Iris flower data set as an example of discriminant analysis<sup>[3](#myfootnote3)</sup>.  
 Fisher used linear discriminant analysis to classify Iris class based on four features.  
 
-Linear discriminant analysis is a method used in statistics, pattern recognition and machine learning. The function is to find a linear combination of features that characterizes or separates two or more classes of objects. The resulting combination may be used to classify the objects<sup>[4](#myfootnote4)</sup>. Linear discriminant analysis focuses on maximizing the seperatibility among known categories. This is achieved by projecting the data onto a new axis / plane and maximizing the distance between category means and minimizing the variation within each category<sup>[5](#myfootnote5)</sup>.
+Linear discriminant analysis is a method used in statistics, pattern recognition and machine learning. The function is to find a linear combination of features that characterizes or separates two or more classes of objects. The resulting combination may be used to classify the objects<sup>[4](#myfootnote4)</sup>. Linear discriminant analysis focuses on maximizing the seperatibility among known categories. This is achieved by projecting the data onto a new axis / plane and maximizing the distance between category means and minimizing the variation within each category<sup>[5](#myfootnote5)</sup>.  
 
+[Irisscatter.py](https://github.com/healyshane/Project_IRIS/blob/master/irisscatter.py) imports the Iris data set and splits the data of features in lists. These lists are shown in a scatter plot. Overlapping of features for the different classes is evident.  
 
-[Irisscatter.py](https://github.com/healyshane/Project_IRIS/blob/master/irisscatter.py) imports the Iris data set and splits the data of features in lists. These lists are shown in a scatter plot. Overlapping of features for the different classes is evident.   
 <br>
 <img height="500" src=https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Iris%20scatter%20plot.png/>
 <br>
 
+histogram.py
+
+
+<br>
+<img height="500" src=https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Histogram%20of%20Petal%20Length.png/>
+<br>
+<br>
+<img height="500" src=https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Histogram%20of%20Petal%20Width.png/>
+<img height="500" src=https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Histogram%20of%20Sepal%20Length.png/>
+<br>
 
 Iristoints.py imports Iris data set, splits the data in lists and converts the Iris species names from strings to integers. 
 This results in a more consise data set that is easier to analyse. 
