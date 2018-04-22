@@ -71,13 +71,15 @@ A decision tree classifier is created and trained on training data.
 clf = tree.DecisionTreeClassifier()
 clf.fit(train_data, train_target)
 ```
-The labels of testing data matches the predicted labels and are printed to screen. 
+The labels of testing data matches the predicted labels and are printed to screen.
+This demonstrates that, based on the testing data, the classifier was successful. 
 ```python
 print(test_target) 
 print(clf.predict(test_data))
 ```
-To visualise how the classifier works, the decision tree is exported in Graphviz format.
-
+To visualise how the classifier works, the decision treeREFSCI-LEARN is exported in Graphviz format.
+<p align="center">
+  <img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Histogram%20of%20Sepal%20Width.png" width="525px" height="350px"/></p> 
 ## References
 <a name="myfootnote1">1</a>: Wikipedia, Iris flower data set , https://en.wikipedia.org/wiki/Iris_flower_data_set  
 <a name="myfootnote2">2</a>: UCI, Machine Learning Repository, http://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data  
