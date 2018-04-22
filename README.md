@@ -31,9 +31,9 @@ Linear discriminant analysis is a method used in statistics, pattern recognition
 histogram.py
 
 
-<br>
+<p align="centre">
 <img height="500" src=https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Histogram%20of%20Petal%20Length.png/>
-<br>
+</p>
 <br>
 <img height="500" src=https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Histogram%20of%20Petal%20Width.png/>
 <img height="500" src=https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Histogram%20of%20Sepal%20Length.png/>
