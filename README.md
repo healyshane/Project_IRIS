@@ -42,11 +42,41 @@ Iristoints.py imports Iris data set, splits the data in lists and converts the I
 This results in a more consise data set that is easier to analyse. 
 The conversion is *Iris-setosa*  = o, *Iris-versicolor* = 1 and *Iris-virginica* = 2.
 
-```python
-s = "Python syntax highlighting"
-print s
-```
+## Decision Tree in Machine Learning
+Google Developers, YouTube Playlist Machine Learning Recipes with Josh Gordon https://www.youtube.com/playlist?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal 
+In YouTube video, Visualizing a Decision Tree – Machine Learning Recipes #2 REF, a decision tree is used to visualise how the classifier works. The goals are to import dataset, train a classifier, predict label for new flower and visualize the decision tree. 
 
+To begin numpy and sklearn packages and Iris data set are imported into Python. test_idx identifies one example of each type of flower. 
+
+```python
+import numpy as np 
+from sklearn.datasets import load_iris
+from sklearn import tree
+
+iris = load_iris()
+test_idx = [0,50,100] 
+```
+One example of each type of flower are removed from data and target variables, this provides values for testing to check accuracy of classifier. 
+Two new sets of variables are created, one for training and one for testing.
+
+```python
+train_target = np.delete(iris.target, test_idx)
+train_data = np.delete(iris.data, test_idx, axis = 0)
+
+test_target = iris.target[test_idx]
+test_data = iris.data[test_idx]
+```
+A decision tree classifier is created and trained on training data. 
+```python
+clf = tree.DecisionTreeClassifier()
+clf.fit(train_data, train_target)
+```
+The labels of testing data matches the predicted labels and are printed to screen. 
+```python
+print(test_target) 
+print(clf.predict(test_data))
+```
+To visualise how the classifier works, the decision tree is exported in Graphviz format.
 
 ## References
 <a name="myfootnote1">1</a>: Wikipedia, Iris flower data set , https://en.wikipedia.org/wiki/Iris_flower_data_set  
