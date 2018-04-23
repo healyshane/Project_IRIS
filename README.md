@@ -93,7 +93,7 @@ This demonstrates that, based on the testing data, the classifier was successful
 print(test_target) 
 print(clf.predict(test_data))
 ```
-To visualise how the classifier works, the decision tree<sup>[9](Decision Tree visualisation from scikit-learn)</sup> is exported in Graphviz format.
+To visualise how the classifier works, the decision tree<sup>[9](#myfootnote8)</sup> is exported in Graphviz format.
 <p align="center">
   <img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Iris%20Classifier%20Decision%20Tree.png" width="750px" height="500px"/></p>  
   
