@@ -50,7 +50,7 @@ Supervised learning has input variables and an output variable. An algorithm is 
 Unsupervised learning has input data but no corresponding outsput variables. An algorithm is used to model the structure of the data. Within unsupervised leaning, a clustering problem would be where groupings in the data is required while an association problem would be defining rules that govern the data. 
 Semi-Supervised Machine Learning is used for problems with input data and only some of the data is labelled. Many real world machine learning problems fall into this area and a mixture of supervised and unsupervised learning methods will be used to analyse data.  
 
-Depending on the desired outcome of machine learning, different techniques may be applied. 
+Depending on the desired outcome of machine learning, different techniques may be applied<sup>[3](#myfootnote3)</sup>. 
 * Classification - Classifiers act as functions where the training data is used to adjust the parameters of the function model. The quality of the data is important in machine learning classification. Independent / unbiased and distinct features are required as inputs to promote accuracy.
 * Regression - Estimating the relationships between variables.
 * Clustering - Inputs are divided into groups that are unknown.
@@ -59,10 +59,10 @@ Depending on the desired outcome of machine learning, different techniques may b
 
 ## Scikit-learn Project
 
-The scikit-learn project<sup>[3](#myfootnote3)</sup> provides an open source machine learning library for the Python programming language. The library is a collection of classes and functions that are imported into Python programs and centred around the NumPy and SciPy libraries. All objects within scikit-learn share three complementary interfaces: 
-Estimator - Develops a fit method for learning a model from training data. 
-Predictor – Uses an array to produce predictions based on the learned parameters of the estimator and scores the accuracy.
-Transformer – To allow filtering and modification of data before feeding into learning algorithm.  
+The scikit-learn project<sup>[3](#myfootnote3)</sup> provides an open source machine learning library for the Python programming language. The library is a collection of classes and functions that are imported into Python programs and centred around the NumPy and SciPy libraries. All objects within scikit-learn share three complementary interfaces:  
+1. Estimator - Develops a fit method for learning a model from training data. 
+1. Predictor – Uses an array to produce predictions based on the learned parameters of the estimator and scores the accuracy.
+1. Transformer – To allow filtering and modification of data before feeding into learning algorithm.  
 
 ## Decision Tree in Machine Learning
 In YouTube video, Visualizing a Decision Tree – Machine Learning Recipes #2<sup>[8](#myfootnote8)</sup>, a decision tree is used as a predictive model to map observations about the data and to visualise how the classifier works. The goals are to import the Iris dataset, train a classifier, predict label for a new flower and visualize the decision tree. 
@@ -111,7 +111,8 @@ To visualise how the classifier works, the decision tree<sup>[9](#myfootnote8)</
 <a name="myfootnote6">6</a>: Supervised and Unsupervised Machine Learning Algorithm, https://machinelearningmastery.com/supervised-and-unsupervised-machine-learning-algorithms/  
 <a name="myfootnote7">7</a>: API design for machine learning software: experiences from the scikit-learn project, https://arxiv.org/abs/1309.0238 )  
 <a name="myfootnote8">8</a>: Google Developers, YouTube Playlist Machine Learning Recipes with Josh Gordon https://www.youtube.com/playlist?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal  
-<a name="myfootnote8">8</a>: scikit-learn Documentation, http://scikit-learn.org/stable/modules/tree.html 
+<a name="myfootnote8">8</a>: scikit-learn Documentation, http://scikit-learn.org/stable/modules/tree.html  
+<a name="myfootnote1">1</a>: Wikipedia, Machine Learning, https://en.wikipedia.org/wiki/Machine_learning 
 
 
 
