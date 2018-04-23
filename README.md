@@ -42,6 +42,14 @@ Iristoints.py imports Iris data set, splits the data in lists and converts the I
 This results in a more consise data set that is easier to analyse. 
 The conversion is *Iris-setosa*  = o, *Iris-versicolor* = 1 and *Iris-virginica* = 2.
 
+# Machine Learning
+## Supervised and Unsupervised Machine Learning Algorithms<sup>[3](#myfootnote3)</sup>
+ https://machinelearningmastery.com/supervised-and-unsupervised-machine-learning-algorithms/
+Supervised learning has input variables and an output variable. An algorithm is used to learn the mapping function from the input to the output. Objective with supervised learning is to be able to correctly predict the output given particular inputs. Within supervised learning, a classification problem would be where the output is a category while a regression problem would be where the output is a real value. 
+Unsupervised learning has input data but no corresponding outsput variables. An algorithm is used to model the structure of the data. Within unsupervised leaning, a clustering problem would be where groupings in the data is required while an association problem would be defining rules that govern the data. 
+Semi-Supervised Machine Learning is used for problems with input data and only some of the data is labelled. Many real world machine learning problems fall into this area and a mixture of supervised and unsupervised learning methods will be used to analyse data. 
+
+
 ## Decision Tree in Machine Learning
 Google Developers, YouTube Playlist Machine Learning Recipes with Josh Gordon https://www.youtube.com/playlist?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal 
 In YouTube video, Visualizing a Decision Tree – Machine Learning Recipes #2 REF, a decision tree is used to visualise how the classifier works. The goals are to import dataset, train a classifier, predict label for new flower and visualize the decision tree. 
@@ -79,13 +87,15 @@ print(clf.predict(test_data))
 ```
 To visualise how the classifier works, the decision treeREFSCI-LEARN is exported in Graphviz format.
 <p align="center">
-  <img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Iris%20Classifier%20Decision%20Tree.png" width="750px" height="500px"/></p> 
+  <img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Iris%20Classifier%20Decision%20Tree.png" width="750px" height="500px"/></p>  
+  
 ## References
 <a name="myfootnote1">1</a>: Wikipedia, Iris flower data set , https://en.wikipedia.org/wiki/Iris_flower_data_set  
 <a name="myfootnote2">2</a>: UCI, Machine Learning Repository, http://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data  
 <a name="myfootnote3">3</a>: Wikipedia, Ronald Fisher, https://en.wikipedia.org/wiki/Ronald_Fisher  
 <a name="myfootnote4">4</a>: Wikipedia, Linear discriminant analysis,  https://en.wikipedia.org/wiki/Linear_discriminant_analysis  
 <a name="myfootnote5">5</a>: StatQuest: Linear Discriminant Analysis (LDA) clearly explained,  https://www.youtube.com/watch?v=azXCzI57Yfc  
+<a name="myfootnote6">6</a>: Supervised and Unsupervised Machine Learning Algorithm, https://machinelearningmastery.com/supervised-and-unsupervised-machine-learning-algorithms/  
 
 
 
