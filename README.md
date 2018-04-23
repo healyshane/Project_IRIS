@@ -43,14 +43,19 @@ This results in a more consise data set that is easier to analyse.
 The conversion is *Iris-setosa*  = o, *Iris-versicolor* = 1 and *Iris-virginica* = 2.
 
 # Machine Learning
-* Supervised and Unsupervised Machine Learning
-* Scikit-learn Project
-* Decision Tree using scikit-learn
+Machine learning uses statistics to give computer systems the ability to learn without being explicitly programmed. Training data is required to devise algorithms or models that will predict an output or find patterns in the data. Machine learning is applicable to a broad range of subjects, from medical diagnosis to financial market speculation to product marketing. Machine learning may be supervised or unsupervised.   
 
 ## Supervised and Unsupervised Machine Learning Algorithms<sup>[3](#myfootnote3)</sup>  
 Supervised learning has input variables and an output variable. An algorithm is used to learn the mapping function from the input to the output. Objective with supervised learning is to be able to correctly predict the output given particular inputs. Within supervised learning, a classification problem would be where the output is a category while a regression problem would be where the output is a real value. 
 Unsupervised learning has input data but no corresponding outsput variables. An algorithm is used to model the structure of the data. Within unsupervised leaning, a clustering problem would be where groupings in the data is required while an association problem would be defining rules that govern the data. 
-Semi-Supervised Machine Learning is used for problems with input data and only some of the data is labelled. Many real world machine learning problems fall into this area and a mixture of supervised and unsupervised learning methods will be used to analyse data. 
+Semi-Supervised Machine Learning is used for problems with input data and only some of the data is labelled. Many real world machine learning problems fall into this area and a mixture of supervised and unsupervised learning methods will be used to analyse data.  
+
+Depending on the desired outcome of machine learning, different techniques may be applied. 
+* Classification - Classifiers act as functions where the training data is used to adjust the parameters of the function model. The quality of the data is important in machine learning classification. Independent / unbiased and distinct features are required as inputs to promote accuracy.
+* Regression - Estimating the relationships between variables.
+* Clustering - Inputs are divided into groups that are unknown.
+* Denstiy Estimation - Determines the distribution of inputs
+* Dimensionality reduction - Simplifies inputs by mapping them to a lower-dimensional space. Linear discriminant analysis, as used by Fisher to classify Iris class, is an example of dimensionality reduction. 
 
 ## Scikit-learn Project
 
