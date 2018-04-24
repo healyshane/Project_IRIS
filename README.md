@@ -45,6 +45,9 @@ X
 X
 X
 
+<p align="center">
+  <img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Mean%20Comparison.png" width="1000px" height="550px"/></p> 
+
 ![XXX](https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Mean%20Comparison.png)  
 
 
