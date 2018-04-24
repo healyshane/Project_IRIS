@@ -45,8 +45,7 @@ X
 X
 X
 
-<p align="center">
-  <img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Mean%20Comparison.png" width="750px" height="500px"/></p>  
+![XXX](https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Mean%20Comparison.png)  
 
 
 # Machine Learning
