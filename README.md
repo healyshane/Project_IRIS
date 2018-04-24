@@ -7,7 +7,7 @@ Fishers Iris data set<sup>[1](#myfootnote1)</sup> describes the features from fi
 *	Petal length
 *	Petal width  
 
-The [Iris data set](https://github.com/healyshane/Project_IRIS/blob/master/iris.csv)<sup>[2](#myfootnote2)</sup> is a real data set, an example of the features for each of the three classes is shown in the table below.
+The [Iris data set](https://github.com/healyshane/Project_IRIS/blob/master/DATA/iris.csv)<sup>[2](#myfootnote2)</sup> is a real data set, an example of the features for each of the three classes is shown in the table below.
 
 Sepal Length(cm) | Sepal Width(cm) | Petal Length(cm) | Petal Width(cm) | Class 
 :--------------: | :-------------: | :--------------: | :-------------: | :-----------------:
@@ -38,9 +38,16 @@ histogram.py
 <p align="center">
   <img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Histogram%20of%20Sepal%20Width.png" width="525px" height="350px"/></p>  
 
-Iristoints.py imports Iris data set, splits the data in lists and converts the Iris species names from strings to integers. 
+iris_stats_py imports Iris data set, splits the data in lists and converts the Iris species names from strings to integers. 
 This results in a more consise data set that is easier to analyse. 
 The conversion is *Iris-setosa*  = o, *Iris-versicolor* = 1 and *Iris-virginica* = 2.
+X
+X
+X
+
+<p align="center">
+  <img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Mean%20Comparison.png" width="750px" height="500px"/></p>  
+
 
 # Machine Learning
 Machine learning uses statistics to give computer systems the ability to learn without being explicitly programmed. Training data is required to devise algorithms or models that will predict an output or find patterns in the data. Machine learning is applicable to a broad range of subjects, from medical diagnosis to financial market speculation to product marketing. Machine learning may be supervised or unsupervised.   
