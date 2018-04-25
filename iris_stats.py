@@ -1,7 +1,6 @@
 #Shane Healy 09-APR-2018, 20-APR-2018
-#Open Iris data set, creates lists and replaces 
-#Iris species names as strings with integers.
-#Replacing strings with integers makes data more consise. 
+#Creates empty lists, opens Iris data set and creates new lists containing features and labels. 
+
 
 import numpy as np 
 
@@ -20,7 +19,7 @@ with open('data/iris.csv') as f:
         PW.append(float(x[3]))
         SPEC.append(str(x[4]))
 
-#replacing strings of Iris species with integers
+#replacing strings of Iris species with integers to make data more concise. 
 for i in range(len(SPEC)):
     if SPEC[i] == "Iris-setosa\n":
         SPEC[i] = 0 
@@ -40,7 +39,7 @@ def Iris(species,feature):
 
 # Allow a user to input a species selection to print statistical information. 
 # 0 for Iris-setosa, 1 for Iris-versicolor, 2 for Iris-virginica, 3 for all species.
-# If the feature could also be entered by user, it would severly reduce the required number of print statements in following code. 
+# If the feature could also be entered by user and referenced in print statement, it would severly reduce the required number of print statements in following code. 
 
 Species = int(input("""Insert number for statistical information on: 
     0 : Iris Setosa
