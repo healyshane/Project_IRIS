@@ -107,6 +107,7 @@ print(clf.predict(test_data))
 To visualise how the classifier works, the decision tree<sup>[9](#myfootnote8)</sup> is exported in Graphviz format.
 <p align="center">
   <img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Iris%20Classifier%20Decision%20Tree.png" width="750px" height="500px"/></p>  
+Sepal Width is not referenced in the decision tree. XXXX
   
 ## References
 <a name="myfootnote1">1</a>: Wikipedia, Iris flower data set , https://en.wikipedia.org/wiki/Iris_flower_data_set  
