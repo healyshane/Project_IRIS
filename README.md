@@ -44,23 +44,26 @@ The conversion is *Iris-setosa*  = o, *Iris-versicolor* = 1 and *Iris-virginica*
 X
 X  
 
-Parameter                           | *Iris Setosa* | *Iris versicolor* | *Iris virginica* | Iris Data Set* 
-:---------------------------------: | :-----------: | :---------------: | :--------------: | :---------------:
+Parameter                           | *Iris setosa* | *Iris versicolor* | *Iris virginica* | Iris Data Set* 
+:---------------------------------- | :-----------: | :---------------: | :--------------: | :---------------:
 Min value of Sepal Length | 4.3 | 4.9 | 4.9 | 4.3
 Max value of Sepal Length | 5.8| 7 | 7.9 | 7.9
 Mean value of Sepal Length |5.006 | 5.936 | 6.588 | 5.843333333
 Standard Deviation of Sepal Length | 0.348946987 | 0.510983366 | 0.629488681 | 0.825301292
+ |   |   |   |  
  |   |   |   |  
 Min value of Sepal Width | 2.3 | 2 | | 2.2 | 2
 Max value of Sepal Width | 4.4 | 3.4 | 3.8 | 4.4
 Mean value of Sepal Width | 3.418 | 2.77 | 2.974 | 3.054
 Standard Deviation of Sepal Width | 0.37719491 | 0.310644491 | 0.319255384 | 0.43214658
  |   |   |   |   
+ |   |   |   |  
 Min value of Petal Length | 1 | 3 | 4.5 | 1
 Max value of Petal Length | 1.9 | 5.1 | 6.9 | 6.9
 Mean value of Petal Length | 1.464 | 4.26 | 5.552 | 3.758666667
 Standard Deviation of Petal Length | 0.171767284 | 0.465188134 | 0.546347875 | 1.758529183
  |   |   |   |
+ |   |   |   |  
 Min value of Petal Width | 0.1 | 1 | 1.4 | 0.1
 Max value of Petal Width | 0.6 | 1.8 | 2.5 | 2.5
 Mean value of Petal Width | 0.244 | 1.326 | 2.026 | 1.198666667
