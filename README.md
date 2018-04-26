@@ -37,10 +37,7 @@ histogram.py
 
   <img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Histogram%20of%20Petal%20Length.png" width="425px" height="283px"/> <img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Histogram%20of%20Petal%20Width.png" width="425px" height="283px"/></p>
   
-<p align="center">
-  <img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Histogram%20of%20Sepal%20Length.png" width="525px" height="350px"/></p>
-<p align="center">
-  <img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Histogram%20of%20Sepal%20Width.png" width="525px" height="350px"/></p>  
+  <img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Histogram%20of%20Sepal%20Length.png" width="425px" height="283px"/> <img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Histogram%20of%20Sepal%20Width.png" width="425px" height="283px"/></p>  
 
 iris_stats_py imports Iris data set, splits the data in lists and converts the Iris species names from strings to integers. 
 This results in a more consise data set that is easier to analyse. 
