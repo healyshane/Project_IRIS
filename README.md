@@ -28,7 +28,7 @@ Linear discriminant analysis is a method used in statistics, pattern recognition
 <img height="500" src=https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Scatter%20Plot%20of%20Iris%20Species.png/>
 <br>
 
-![](https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Scatter%20plot%20of%20Petal%20Length%20V%20Petal%20Width.png) ![](https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Scatter%20plot%20of%20Sepal%20Length%20V%20Sepal%20Width.png)
+<img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Scatter%20plot%20of%20Petal%20Length%20V%20Petal%20Width.png" width="425"/> <img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Scatter%20plot%20of%20Sepal%20Length%20V%20Sepal%20Width.png" width="425"/>
 
 
 
