@@ -53,7 +53,7 @@ Mean value of Sepal Length |5.006 | 5.936 | 6.588 | 5.843333333
 Standard Deviation of Sepal Length | 0.348946987 | 0.510983366 | 0.629488681 | 0.825301292
  |   |   |   |  
  |   |   |   |  
-Min value of Sepal Width | 2.3 | 2 | | 2.2 | 2
+Min value of Sepal Width | 2.3 | 2 | 2.2 | 2
 Max value of Sepal Width | 4.4 | 3.4 | 3.8 | 4.4
 Mean value of Sepal Width | 3.418 | 2.77 | 2.974 | 3.054
 Standard Deviation of Sepal Width | 0.37719491 | 0.310644491 | 0.319255384 | 0.43214658 
