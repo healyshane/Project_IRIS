@@ -24,12 +24,10 @@ Linear discriminant analysis is a method used in statistics, pattern recognition
 
 [Irisscatter.py](https://github.com/healyshane/Project_IRIS/blob/master/irisscatter.py) imports the Iris data set and splits the data of features in lists. These lists are shown in a scatter plot. Overlapping of features for the different classes is evident.  
 
-<br>
 <img height="500" src=https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Scatter%20Plot%20of%20Iris%20Species.png/>
-<br>
 
-<img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Scatter%20plot%20of%20Petal%20Length%20V%20Petal%20Width.png" width="425" height="500"/> <img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Scatter%20plot%20of%20Sepal%20Length%20V%20Sepal%20Width.png" width="425" height="500"/>
 
+<img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Scatter%20plot%20of%20Petal%20Length%20V%20Petal%20Width.png" width="425" height="400"/> <img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Scatter%20plot%20of%20Sepal%20Length%20V%20Sepal%20Width.png" width="425" height="400"/>  
 
 
 histogram.py
