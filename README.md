@@ -1,4 +1,4 @@
-# Programming and Scripting Project APR2018 - Iris Data Set
+# Analysis of Iris Data Set in Python
 
 ## Background
 Fishers Iris data set<sup>[1](#myfootnote1)</sup> describes the features from fifty samples from each of three classes of Iris, *Iris setosa*, *Iris virginica* and *Iris versicolor*. The features, measured in cm are:
