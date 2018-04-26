@@ -67,6 +67,8 @@ Max value of Petal Width | 0.6 | 1.8 | 2.5 | 2.5
 Mean value of Petal Width | 0.244 | 1.326 | 2.026 | 1.198666667
 Standard Deviation of Petal Width | 0.106131993 | 0.195765165 | 0.271889684 | 0.760612619
 
+<img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Mean%20Comparison.png" width="425" height="375"/> 
+
 <img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Mean%20Comparison.png" width="900" height=600"/></p> 
 
 
