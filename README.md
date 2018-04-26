@@ -70,7 +70,7 @@ Standard Deviation of Petal Width | 0.106131993 | 0.195765165 | 0.271889684 | 0.
 <img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Mean%20Comparison.png" width="900" height="375"/>  
 
 
-<img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Mean%20Comparison.png" width="900" height="500"/>
+<img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Mean%20Comparison.png" width="1000" height="500"/>
 
 
 ![Comparison between iris means](https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Mean%20Comparison.png)  
