@@ -31,7 +31,7 @@ Linear discriminant analysis is a method used in statistics, pattern recognition
 
 <img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Petal%20Width%20V%20Sepal%20Length.png" width="425" height="375"/> <img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Sepal%20Length%20V%20Petal%20Length.png" width="425" height="375"/>  
 
-<img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Sepal%20Length%20V%20Sepal%20Width.png" width="425" height="375"/> <img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Sepal%20Width%20V%20Petal%20Width.png" width="425" height="375"/>  
+<img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Sepal%20Length%20V%20Sepal%20Width.png" width="425" height="283"/> <img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Sepal%20Width%20V%20Petal%20Width.png" width="425" height="283"/>  
 
 histogram.py
 
