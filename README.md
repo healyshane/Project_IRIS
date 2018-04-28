@@ -2,6 +2,21 @@
 Shane Healy, April 2018
 
 
+<!-- TOC -->
+
+- [Analysis of Iris Data Set in Python](#analysis-of-iris-data-set-in-python)
+    - [Introduction](#introduction)
+    - [Background](#background)
+- [Machine Learning](#machine-learning)
+    - [Supervised and Unsupervised Machine Learning Algorithms<sup>[3](#myfootnote3)</sup>](#supervised-and-unsupervised-machine-learning-algorithmssup3myfootnote3sup)
+    - [Scikit-learn Project](#scikit-learn-project)
+    - [Decision Tree in Machine Learning](#decision-tree-in-machine-learning)
+    - [References](#references)
+
+<!-- /TOC -->
+
+
+
 ## Introduction
 A description of repository contents are shown in table below.
 Project_IRIS Repository | Description  
