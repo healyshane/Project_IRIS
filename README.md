@@ -1,7 +1,23 @@
 # Analysis of Iris Data Set with Python
-Shane Healy, April 2018
+                                                                                                       Shane Healy, April 2018
+<!-- TOC -->
 
+- [Analysis of Iris Data Set with Python](#analysis-of-iris-data-set-with-python)
+    - [Introduction](#introduction)
+    - [Background](#background)
+        - [Linear Discriminant Analysis](#linear-discriminant-analysis)
+    - [Visualisation of Iris Data Set](#visualisation-of-iris-data-set)
+        - [Scatter Plots](#scatter-plots)
+        - [Histograms](#histograms)
+    - [Statistical Analysis](#statistical-analysis)
+    - [Machine Learning](#machine-learning)
+        - [Supervised and Unsupervised Machine Learning Algorithms](#supervised-and-unsupervised-machine-learning-algorithms)
+        - [Scikit-learn Project](#scikit-learn-project)
+        - [Decision Tree in Machine Learning](#decision-tree-in-machine-learning)
+    - [Conclusion](#conclusion)
+    - [References](#references)
 
+<!-- /TOC -->  
 
 To generate the table of contents, Markdown-toc extension<sup>[1](#myfootnote1)</sup> was installed in Visual Studio. The text of README.md file was pasted into Visual Studio .md file and, by selecting option "Markdown TOC: Insert/Update", the code representing the table of contents was generated. This code was then pasted into README.md. 
 
