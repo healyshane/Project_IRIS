@@ -2,20 +2,9 @@
 Shane Healy, April 2018
 
 
-<!-- TOC -->
-
-- [Analysis of Iris Data Set in Python](#analysis-of-iris-data-set-in-python)
-    - [Introduction](#introduction)
-    - [Background](#background)
-- [Machine Learning](#machine-learning)
-    - [Supervised and Unsupervised Machine Learning Algorithms<sup>[3](#myfootnote3)</sup>](#supervised-and-unsupervised-machine-learning-algorithmssup3myfootnote3sup)
-    - [Scikit-learn Project](#scikit-learn-project)
-    - [Decision Tree in Machine Learning](#decision-tree-in-machine-learning)
-    - [References](#references)
-
-<!-- /TOC -->
 
 
+To generate the table of contents, Markdown-toc extension was installed in Visual Studio. When contents of README.md are pasted into Visual Studio a table of contents may be generated. This was code was then pasted into README.md. 
 
 ## Introduction
 A description of repository contents are shown in table below.
@@ -104,10 +93,10 @@ Standard Deviation of Petal Width | 0.106131993 | 0.195765165 | 0.271889684 | 0.
 # Machine Learning
 Machine learning uses statistics to give computer systems the ability to learn without being explicitly programmed. Training data is required to devise algorithms or models that will predict an output or find patterns in the data. Machine learning is applicable to a broad range of subjects, from medical diagnosis to financial market speculation to product marketing. Machine learning may be supervised or unsupervised.   
 
-## Supervised and Unsupervised Machine Learning Algorithms<sup>[3](#myfootnote3)</sup>  
+## Supervised and Unsupervised Machine Learning Algorithms 
 Supervised learning has input variables and an output variable. An algorithm is used to learn the mapping function from the input to the output. Objective with supervised learning is to be able to correctly predict the output given particular inputs. Within supervised learning, a classification problem would be where the output is a category while a regression problem would be where the output is a real value. 
 Unsupervised learning has input data but no corresponding outsput variables. An algorithm is used to model the structure of the data. Within unsupervised leaning, a clustering problem would be where groupings in the data is required while an association problem would be defining rules that govern the data. 
-Semi-Supervised Machine Learning is used for problems with input data and only some of the data is labelled. Many real world machine learning problems fall into this area and a mixture of supervised and unsupervised learning methods will be used to analyse data.  
+Semi-Supervised Machine Learning is used for problems with input data and only some of the data is labelled. Many real world machine learning problems fall into this area and a mixture of supervised and unsupervised learning methods will be used to analyse data<sup>[3](#myfootnote3)</sup> .  
 
 Depending on the desired outcome of machine learning, different techniques may be applied<sup>[3](#myfootnote3)</sup>. 
 * Classification - Classifiers act as functions where the training data is used to adjust the parameters of the function model. The quality of the data is important in machine learning classification. Independent / unbiased and distinct features are required as inputs to promote accuracy.
