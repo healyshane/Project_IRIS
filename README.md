@@ -43,6 +43,8 @@ Fisher used linear discriminant analysis to classify Iris class based on four fe
 
 Linear discriminant analysis is a method used in statistics, pattern recognition and machine learning. The function is to find a linear combination of features that characterizes or separates two or more classes of objects. The resulting combination may be used to classify the objects<sup>[4](#myfootnote4)</sup>. Linear discriminant analysis focuses on maximizing the seperatibility among known categories. This is achieved by projecting the data onto a new axis / plane and maximizing the distance between category means and minimizing the variation within each category<sup>[5](#myfootnote5)</sup>.  
 
+## Visualisation of Iris Data Set
+
 [Irisscatter.py](https://github.com/healyshane/Project_IRIS/blob/master/irisscatter.py) imports the Iris data set and splits the data of features in lists. These lists are shown in a scatter plot. Overlapping of features for the different classes is evident.  
 
 <img height="500" src=https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Scatter%20Plot%20of%20Iris%20Species.png/>
@@ -59,6 +61,8 @@ histogram.py
   <img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Histogram%20of%20Petal%20Length.png" width="425px" height="283px"/> <img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Histogram%20of%20Petal%20Width.png" width="425px" height="283px"/></p>
   
   <img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Histogram%20of%20Sepal%20Length.png" width="425px" height="283px"/> <img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Histogram%20of%20Sepal%20Width.png" width="425px" height="283px"/></p>  
+
+## Statistical Analysis
 
 iris_stats_py imports Iris data set, splits the data in lists and converts the Iris species names from strings to integers. 
 This results in a more consise data set that is easier to analyse. 
@@ -91,10 +95,10 @@ Standard Deviation of Petal Width | 0.106131993 | 0.195765165 | 0.271889684 | 0.
 ![Comparison between iris means](https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Mean%20Comparison.png)  
 
 
-# Machine Learning
+## Machine Learning
 Machine learning uses statistics to give computer systems the ability to learn without being explicitly programmed. Training data is required to devise algorithms or models that will predict an output or find patterns in the data. Machine learning is applicable to a broad range of subjects, from medical diagnosis to financial market speculation to product marketing. Machine learning may be supervised or unsupervised.   
 
-## Supervised and Unsupervised Machine Learning Algorithms 
+### Supervised and Unsupervised Machine Learning Algorithms 
 Supervised learning has input variables and an output variable. An algorithm is used to learn the mapping function from the input to the output. Objective with supervised learning is to be able to correctly predict the output given particular inputs. Within supervised learning, a classification problem would be where the output is a category while a regression problem would be where the output is a real value. 
 Unsupervised learning has input data but no corresponding outsput variables. An algorithm is used to model the structure of the data. Within unsupervised leaning, a clustering problem would be where groupings in the data is required while an association problem would be defining rules that govern the data. 
 Semi-Supervised Machine Learning is used for problems with input data and only some of the data is labelled. Many real world machine learning problems fall into this area and a mixture of supervised and unsupervised learning methods will be used to analyse data<sup>[3](#myfootnote3)</sup> .  
@@ -106,14 +110,14 @@ Depending on the desired outcome of machine learning, different techniques may b
 * Denstiy Estimation - Determines the distribution of inputs
 * Dimensionality reduction - Simplifies inputs by mapping them to a lower-dimensional space. Linear discriminant analysis, as used by Fisher to classify Iris class, is an example of dimensionality reduction. 
 
-## Scikit-learn Project
+### Scikit-learn Project
 
 The scikit-learn project<sup>[3](#myfootnote3)</sup> provides an open source machine learning library for the Python programming language. The library is a collection of classes and functions that are imported into Python programs and centred around the NumPy and SciPy libraries. All objects within scikit-learn share three complementary interfaces:  
 1. Estimator - Develops a fit method for learning a model from training data. 
 1. Predictor – Uses an array to produce predictions based on the learned parameters of the estimator and scores the accuracy.
 1. Transformer – To allow filtering and modification of data before feeding into learning algorithm.  
 
-## Decision Tree in Machine Learning
+### Decision Tree in Machine Learning
 In YouTube video, Visualizing a Decision Tree – Machine Learning Recipes #2<sup>[8](#myfootnote8)</sup>, a decision tree is used as a predictive model to map observations about the data and to visualise how the classifier works. The goals are to import the Iris dataset, train a classifier, predict label for a new flower and visualize the decision tree. 
 
 To begin numpy and sklearn packages and Iris data set are imported into Python. test_idx identifies one example of each type of flower. 
@@ -151,7 +155,9 @@ To visualise how the classifier works, the decision tree<sup>[9](#myfootnote8)</
 <p align="center">
   <img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Iris%20Classifier%20Decision%20Tree.png" width="750px" height="500px"/></p>  
 Sepal Width is not referenced in the decision tree. XXXX
-  
+ 
+## Conclusion 
+ 
 ## References
 <a name="myfootnote1">1</a>: Wikipedia, Iris flower data set , https://en.wikipedia.org/wiki/Iris_flower_data_set  
 <a name="myfootnote2">2</a>: UCI, Machine Learning Repository, http://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data  
