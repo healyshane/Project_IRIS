@@ -3,7 +3,6 @@ Shane Healy, April 2018
 
 
 
-
 To generate the table of contents, Markdown-toc extension was installed in Visual Studio. When contents of README.md are pasted into Visual Studio a table of contents may be generated. This was code was then pasted into README.md. 
 
 ## Introduction
@@ -44,7 +43,7 @@ Fisher used linear discriminant analysis to classify Iris class based on four fe
 Linear discriminant analysis is a method used in statistics, pattern recognition and machine learning. The function is to find a linear combination of features that characterizes or separates two or more classes of objects. The resulting combination may be used to classify the objects<sup>[4](#myfootnote4)</sup>. Linear discriminant analysis focuses on maximizing the seperatibility among known categories. This is achieved by projecting the data onto a new axis / plane and maximizing the distance between category means and minimizing the variation within each category<sup>[5](#myfootnote5)</sup>.  
 
 ## Visualisation of Iris Data Set
-
+### Scatter Plots
 [Irisscatter.py](https://github.com/healyshane/Project_IRIS/blob/master/irisscatter.py) imports the Iris data set and splits the data of features in lists. These lists are shown in a scatter plot. Overlapping of features for the different classes is evident.  
 
 <img height="500" src=https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Scatter%20Plot%20of%20Iris%20Species.png/>
@@ -56,6 +55,7 @@ Linear discriminant analysis is a method used in statistics, pattern recognition
 
 <img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Sepal%20Length%20V%20Sepal%20Width.png" width="425" height="375"/> <img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Sepal%20Width%20V%20Petal%20Width.png" width="425" height="375"/>  
 
+### Histograms
 histogram.py
 
   <img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Histogram%20of%20Petal%20Length.png" width="425px" height="283px"/> <img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Histogram%20of%20Petal%20Width.png" width="425px" height="283px"/></p>
