@@ -62,9 +62,9 @@ Linear discriminant analysis is a method used in statistics, pattern recognition
 
 ## Visualisation of Iris Data Set
 ### Scatter Plots
-To generate scatter plot for the Iris data set, [iris_scatter.py](https://github.com/healyshane/Project_IRIS/blob/master/iris_scatter.py) was written. Empty lists were created for Iris features (Sepal Length, Sepal Width, Petal Length, Petal Width) and Species. The Iris data file is opened and by iterating through each line and splitting each line using delimiter ",", the values associated with features and species are appended into individual lists. As Iris species is a word as opposed to a number, this was appended as a string. Matplotlib.pyplot was imported and used to create scatter plot of the different features versus species. The plot was customised by defining colours, markers, legend, title and axis labels. 
+To generate scatter plot for the Iris data set, [iris_scatter.py](https://github.com/healyshane/Project_IRIS/blob/master/iris_scatter.py) was written. Empty lists were created for Iris features (Sepal Length, Sepal Width, Petal Length, Petal Width) and Species. The Iris data file is opened and by iterating through each line and splitting each line using a delimiter of the comma, the values associated with features and species are appended into individual lists. As Iris species is a word as opposed to a number, this is appended as a string. Matplotlib.pyplot is imported and used to create the  scatter plots shown in this section. The plots are customised by specifying colours, markers, legend, title, axis labels and grid visibility. 
 
-Overlapping of features for the different classes is evident.  
+In Scatter Plot of Iris Species, while a general pattern for the feature sizes of different species is evident there is also overlapping.  
 
 <img height="500" src=https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Scatter%20Plot%20of%20Iris%20Species.png/>
 
