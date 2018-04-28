@@ -91,8 +91,8 @@ A for loop iterates over the Species list and replaces the species name with an 
 A function called Iris is defined with input of species and feature. This function returns an array and the data within will reflect the species and feature referenced.  
 When running iris_stats.py the user is prompted to input a selection as shown below. 
 
+![](https://github.com/healyshane/Project_IRIS/blob/master/Graphs/User%20Input%20for%20Statistical%20Info.PNG)
 
-X
 X  
 
 Parameter                           | *Iris setosa* | *Iris versicolor* | *Iris virginica* | Iris Data Set* 
