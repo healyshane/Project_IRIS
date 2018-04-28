@@ -8,6 +8,7 @@ To generate the table of contents, Markdown-toc extension was installed in Visua
 
 ## Introduction
 A description of repository contents are shown in table below.
+
 Project_IRIS Repository | Description  
 :------------------------------- | :---------------------------------------------
 iris_scatter.py | Python code to generate scatter plots of Iris data
