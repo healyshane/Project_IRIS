@@ -38,7 +38,7 @@ DATA Folder | CSV files of Iris data set and Iris statistics data set
 
 
 ## Background
-Fishers Iris data set<sup>[1](#myfootnote1)</sup> describes the features from fifty samples from each of three species of Iris, *Iris setosa*, *Iris virginica* and *Iris versicolor*. The features, measured in cm are:
+Fishers Iris data set<sup>[1](#myfootnote1)</sup> describes the features from fifty samples from each of three species of Iris, *Iris setosa*, *Iris virginica* and *Iris versicolor*. The features, measured in cm, are:
 *	Sepal Length
 *	Sepal width
 *	Petal length
@@ -64,10 +64,11 @@ Linear discriminant analysis is a method used in statistics, pattern recognition
 ### Scatter Plots
 To generate scatter plot for the Iris data set, [iris_scatter.py](https://github.com/healyshane/Project_IRIS/blob/master/iris_scatter.py) was written. Empty lists were created for Iris features (Sepal Length, Sepal Width, Petal Length, Petal Width) and Species. The Iris data file is opened and by iterating through each line and splitting each line using a delimiter of the comma, the values associated with features and species are appended into individual lists. As Iris species is a word as opposed to a number, this is appended as a string. Matplotlib.pyplot is imported and used to create the  scatter plots shown in this section. The plots are customised by specifying colours, markers, legend, title, axis labels and grid visibility. 
 
-In Scatter Plot of Iris Species, while a general pattern for the feature sizes of different species is evident there is also overlapping.  
+In Scatter Plot of Iris Species, while a general pattern for the feature sizes of different species is evident there is also overlapping. It is not obvious what feature dimensions are associated with a particular species of Iris. This property is why the Iris data set is frequently used as a sample data set for testing of machine learning algorithms.    
 
 <img height="500" src=https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Scatter%20Plot%20of%20Iris%20Species.png/>
 
+Petal length and petal width stand out from below scatter plots as being defining individual features for *Iris setosa*. *Iris versicolor* and *Iris viriginica* share ranges for all the features, however Iris virginica has the greatest maximum value for all features except sepal width. 
 
 <img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Petal%20Length%20V%20Petal%20Width.png" width="425" height="375"/> <img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Petal%20Length%20V%20Sepal%20Width.png" width="425" height="375"/>  
 
