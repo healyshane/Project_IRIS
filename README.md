@@ -1,4 +1,4 @@
-# Analysis of Iris Data Set in Python
+# Analysis of Iris Data Set with Python
 Shane Healy, April 2018
 
 <!-- TOC -->
@@ -19,9 +19,10 @@ Shane Healy, April 2018
 
 <!-- /TOC -->
 
-To generate the table of contents, Markdown-toc extension<sup>[1](#myfootnote1)</sup> was installed in Visual Studio. When contents of README.md are pasted into Visual Studio a table of contents may be generated. This was code was then pasted into README.md. 
+To generate the table of contents, Markdown-toc extension<sup>[1](#myfootnote1)</sup> was installed in Visual Studio. The text of README.md file was pasted into Visual Studio .md file and, by selecting option "Markdown TOC: Insert/Update", the code representing the table of contents was generated. This code was then pasted into README.md. 
 
 ## Introduction
+The objective of this project is to reasearch the Iris data set and write Python code to analyse the data set.  
 A description of repository contents are shown in table below.
 
 Project_IRIS Repository | Description  
@@ -37,15 +38,15 @@ DATA Folder | CSV files of Iris data set and Iris statistics data set
 
 
 ## Background
-Fishers Iris data set<sup>[1](#myfootnote1)</sup> describes the features from fifty samples from each of three classes of Iris, *Iris setosa*, *Iris virginica* and *Iris versicolor*. The features, measured in cm are:
+Fishers Iris data set<sup>[1](#myfootnote1)</sup> describes the features from fifty samples from each of three species of Iris, *Iris setosa*, *Iris virginica* and *Iris versicolor*. The features, measured in cm are:
 *	Sepal Length
 *	Sepal width
 *	Petal length
 *	Petal width  
 
-The [Iris data set](https://github.com/healyshane/Project_IRIS/blob/master/DATA/iris.csv)<sup>[2](#myfootnote2)</sup> is a real data set, an example of the features for each of the three classes is shown in the table below.
+The [Iris data set](https://github.com/healyshane/Project_IRIS/blob/master/DATA/iris.csv)<sup>[2](#myfootnote2)</sup> is a real data set, an example of the features for each of the three species is shown in the table below.
 
-Sepal Length(cm) | Sepal Width(cm) | Petal Length(cm) | Petal Width(cm) | Class 
+Sepal Length(cm) | Sepal Width(cm) | Petal Length(cm) | Petal Width(cm) | Species 
 :--------------: | :-------------: | :--------------: | :-------------: | :-----------------:
 5.1 | 3.5 | 1.4 | 0.2 | *Iris-setosa*
 7 |	3.2 |	4.7	| 1.4	| *Iris-versicolor*	
@@ -56,11 +57,14 @@ Sepal Length(cm) | Sepal Width(cm) | Petal Length(cm) | Petal Width(cm) | Class
 Sir Ronald Fisher was a British statistician and geneticist. He helped create the foundation for modern statistical science and in 1936 he introduced the Iris flower data set as an example of discriminant analysis<sup>[3](#myfootnote3)</sup>.  
 Fisher used linear discriminant analysis to classify Iris class based on four features.  
 
+### Linear Discriminant Analysis
 Linear discriminant analysis is a method used in statistics, pattern recognition and machine learning. The function is to find a linear combination of features that characterizes or separates two or more classes of objects. The resulting combination may be used to classify the objects<sup>[4](#myfootnote4)</sup>. Linear discriminant analysis focuses on maximizing the seperatibility among known categories. This is achieved by projecting the data onto a new axis / plane and maximizing the distance between category means and minimizing the variation within each category<sup>[5](#myfootnote5)</sup>.  
 
 ## Visualisation of Iris Data Set
 ### Scatter Plots
-[Irisscatter.py](https://github.com/healyshane/Project_IRIS/blob/master/irisscatter.py) imports the Iris data set and splits the data of features in lists. These lists are shown in a scatter plot. Overlapping of features for the different classes is evident.  
+To generate scatter plot for the Iris data set, [iris_scatter.py](https://github.com/healyshane/Project_IRIS/blob/master/iris_scatter.py) was written. Empty 
+
+Overlapping of features for the different classes is evident.  
 
 <img height="500" src=https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Scatter%20Plot%20of%20Iris%20Species.png/>
 
