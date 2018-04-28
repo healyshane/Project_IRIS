@@ -89,12 +89,15 @@ NumPy is a package for scientific computing with Python and deals efficiently wi
 To perform statistical analysis on Iris data set [iris_stats_py](https://github.com/healyshane/Project_IRIS/blob/master/iris_stats.py) was written. Empty lists were created for Iris features (Sepal Length, Sepal Width, Petal Length, Petal Width) and Species. The Iris data file is opened and by iterating through each line and splitting each line using a delimiter of the comma, the values associated with features and species are appended into individual lists. As Iris species is a word as opposed to a number, this is appended as a string.  
 A for loop iterates over the Species list and replaces the species name with an integer, the intention is to make this list more concise and easier to use in analysis. The conversion is *Iris-setosa*  = o, *Iris-versicolor* = 1 and *Iris-virginica* = 2.  
 A function called Iris is defined with input of species and feature. This function returns an array and the data within will reflect the species and feature referenced.  
-When running iris_stats.py the user is prompted to input a selection as shown below. 
+When running iris_stats.py the user is prompted to input a selection as shown below and statistical information on the features of that selection will be displayed. 
 
-![](https://github.com/healyshane/Project_IRIS/blob/master/Graphs/User%20Input%20for%20Statistical%20Info.PNG)
+<p align="center">
+  <img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/User%20Input%20for%20Statistical%20Info.PNG"/></p>  
 
+If "All species in Iris data set" is inputted, a Numpy function is called during print statement to calculate the min, max, mean and standard deviation for each of the features.   
+If a specific species is inputted header information is firstly printed. Function Iris is called during print statement to provide the data on which Numpy function calculates the min, max, mean and standard deviation for each of the features. If the user could also input the required feature, aswell as the species, it would reduce the number of print statements required in the code.   
 
-X  
+iris_stats.py was run for each of the selections and the resulting data was pasted into a new CSV file, [Iris_stats.csv](https://github.com/healyshane/Project_IRIS/blob/master/DATA/Iris_stats.csv). The data contained is shown in table below. 
 
 Parameter                           | *Iris setosa* | *Iris versicolor* | *Iris virginica* | Iris Data Set* 
 :---------------------------------- | :-----------: | :---------------: | :--------------: | :---------------:
@@ -116,7 +119,9 @@ Standard Deviation of Petal Length | 0.171767284 | 0.465188134 | 0.546347875 | 1
 Min value of Petal Width | 0.1 | 1 | 1.4 | 0.1
 Max value of Petal Width | 0.6 | 1.8 | 2.5 | 2.5
 Mean value of Petal Width | 0.244 | 1.326 | 2.026 | 1.198666667
-Standard Deviation of Petal Width | 0.106131993 | 0.195765165 | 0.271889684 | 0.760612619
+Standard Deviation of Petal Width | 0.106131993 | 0.195765165 | 0.271889684 | 0.760612619  
+
+To analyse the 
 
 ![Comparison between iris means](https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Mean%20Comparison.png)  
 
