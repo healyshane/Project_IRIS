@@ -1,5 +1,5 @@
 # Analysis of Iris Data Set with Python
-<p dir='rtl' align='right'>Shane Healy, April 2018</p><dt>right</dt>
+<p dir='rtl' align='right'>Shane Healy, April 2018
 <!-- TOC -->
 
 - [Analysis of Iris Data Set with Python](#analysis-of-iris-data-set-with-python)
