@@ -1,23 +1,7 @@
 # Analysis of Iris Data Set with Python
 Shane Healy, April 2018
 
-<!-- TOC -->
 
-- [Analysis of Iris Data Set in Python](#analysis-of-iris-data-set-in-python)
-    - [Introduction](#introduction)
-    - [Background](#background)
-    - [Visualisation of Iris Data Set](#visualisation-of-iris-data-set)
-        - [Scatter Plots](#scatter-plots)
-        - [Histograms](#histograms)
-    - [Statistical Analysis](#statistical-analysis)
-    - [Machine Learning](#machine-learning)
-        - [Supervised and Unsupervised Machine Learning Algorithms](#supervised-and-unsupervised-machine-learning-algorithms)
-        - [Scikit-learn Project](#scikit-learn-project)
-        - [Decision Tree in Machine Learning](#decision-tree-in-machine-learning)
-    - [Conclusion](#conclusion)
-    - [References](#references)
-
-<!-- /TOC -->
 
 To generate the table of contents, Markdown-toc extension<sup>[1](#myfootnote1)</sup> was installed in Visual Studio. The text of README.md file was pasted into Visual Studio .md file and, by selecting option "Markdown TOC: Insert/Update", the code representing the table of contents was generated. This code was then pasted into README.md. 
 
@@ -38,13 +22,13 @@ DATA Folder | CSV files of Iris data set and Iris statistics data set
 
 
 ## Background
-Fishers Iris data set<sup>[1](#myfootnote1)</sup> describes the features from fifty samples from each of three species of Iris, *Iris setosa*, *Iris virginica* and *Iris versicolor*. The features, measured in cm, are:
+Fishers Iris data set<sup>[2](#myfootnote2)</sup> describes the features from fifty samples from each of three species of Iris, *Iris setosa*, *Iris virginica* and *Iris versicolor*. The features, measured in cm, are:
 *	Sepal Length
 *	Sepal width
 *	Petal length
 *	Petal width  
 
-The [Iris data set](https://github.com/healyshane/Project_IRIS/blob/master/DATA/iris.csv)<sup>[2](#myfootnote2)</sup> is a real data set, an example of the features for each of the three species is shown in the table below.
+The [Iris data set](https://github.com/healyshane/Project_IRIS/blob/master/DATA/iris.csv)<sup>[3](#myfootnote3)</sup> is a real data set, an example of the features for each of the three species is shown in the table below.
 
 Sepal Length(cm) | Sepal Width(cm) | Petal Length(cm) | Petal Width(cm) | Species 
 :--------------: | :-------------: | :--------------: | :-------------: | :-----------------:
@@ -54,11 +38,11 @@ Sepal Length(cm) | Sepal Width(cm) | Petal Length(cm) | Petal Width(cm) | Specie
 
 
 
-Sir Ronald Fisher was a British statistician and geneticist. He helped create the foundation for modern statistical science and in 1936 he introduced the Iris flower data set as an example of discriminant analysis<sup>[3](#myfootnote3)</sup>.  
+Sir Ronald Fisher was a British statistician and geneticist. He helped create the foundation for modern statistical science and in 1936 he introduced the Iris flower data set as an example of discriminant analysis<sup>[4](#myfootnote4)</sup>.  
 Fisher used linear discriminant analysis to classify Iris class based on four features.  
 
 ### Linear Discriminant Analysis
-Linear discriminant analysis is a method used in statistics, pattern recognition and machine learning. The function is to find a linear combination of features that characterizes or separates two or more classes of objects. The resulting combination may be used to classify the objects<sup>[4](#myfootnote4)</sup>. Linear discriminant analysis focuses on maximizing the seperatibility among known categories. This is achieved by projecting the data onto a new axis / plane and maximizing the distance between category means and minimizing the variation within each category<sup>[5](#myfootnote5)</sup>.  
+Linear discriminant analysis is a method used in statistics, pattern recognition and machine learning. The function is to find a linear combination of features that characterizes or separates two or more classes of objects. The resulting combination may be used to classify the objects<sup>[5](#myfootnote5)</sup>. Linear discriminant analysis focuses on maximizing the seperatibility among known categories. This is achieved by projecting the data onto a new axis / plane and maximizing the distance between category means and minimizing the variation within each category<sup>[6](#myfootnote6)</sup>.  
 
 ## Visualisation of Iris Data Set
 ### Scatter Plots
@@ -97,9 +81,9 @@ When running iris_stats.py the user is prompted to input a selection as shown be
 If "All species in Iris data set" is inputted, a Numpy function is called during print statement to calculate the min, max, mean and standard deviation for each of the features.   
 If a specific species is inputted header information is firstly printed. Function Iris is called during print statement to provide the data on which Numpy function calculates the min, max, mean and standard deviation for each of the features. If the user could also input the required feature, aswell as the species, it would reduce the number of print statements required in the code.   
 
-iris_stats.py was run for each of the selections and the resulting data was pasted into a new CSV file, [Iris_stats.csv](https://github.com/healyshane/Project_IRIS/blob/master/DATA/Iris_stats.csv). The data contained is shown in table below. 
+iris_stats.py was run for each of the selections and the resulting data was pasted into a new CSV file, [Iris_stats.csv](https://github.com/healyshane/Project_IRIS/blob/master/DATA/Iris_stats.csv) and formatted manually. The data contained is shown in table below. 
 
-Parameter                           | *Iris setosa* | *Iris versicolor* | *Iris virginica* | Iris Data Set* 
+Parameter                           | *Iris setosa* | *Iris versicolor* | *Iris virginica* | Iris Data Set 
 :---------------------------------- | :-----------: | :---------------: | :--------------: | :---------------:
 Min value of Sepal Length | 4.3 | 4.9 | 4.9 | 4.3
 Max value of Sepal Length | 5.8| 7 | 7.9 | 7.9
@@ -121,7 +105,10 @@ Max value of Petal Width | 0.6 | 1.8 | 2.5 | 2.5
 Mean value of Petal Width | 0.244 | 1.326 | 2.026 | 1.198666667
 Standard Deviation of Petal Width | 0.106131993 | 0.195765165 | 0.271889684 | 0.760612619  
 
-To analyse the 
+To analyse the variation in means for Iris features [iris_mean.py](https://github.com/healyshane/Project_IRIS/blob/master/iris_means.py) was written. Numpy and matplotlib libraries are used. The data is generated from iris_stats.csv and four variables are defined to hold the data for the mean values of each features. Index reference numbers and ranges are also manually defined.  
+Species is a tuple that lists *Iris setosa*,*Iris versicolor*,*Iris virginica* and Iris data. Numpy.arrange is used to return evenly spaced values along the length of Species. 
+Bar charts, created as subplots, plot the mean parameter versus the species and are customised by specifying colours, transparency, title, axis labels and position of bars on axis.  
+Sepal width has the least variation in mean values for features implying it is not a good feature by which Iris species could be classified. 
 
 ![Comparison between iris means](https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Mean%20Comparison.png)  
 
@@ -132,9 +119,9 @@ Machine learning uses statistics to give computer systems the ability to learn w
 ### Supervised and Unsupervised Machine Learning Algorithms 
 Supervised learning has input variables and an output variable. An algorithm is used to learn the mapping function from the input to the output. Objective with supervised learning is to be able to correctly predict the output given particular inputs. Within supervised learning, a classification problem would be where the output is a category while a regression problem would be where the output is a real value. 
 Unsupervised learning has input data but no corresponding output variables. An algorithm is used to model the structure of the data. Within unsupervised leaning, a clustering problem would be where groupings in the data is required while an association problem would be defining rules that govern the data. 
-Semi-Supervised Machine Learning is used for problems with input data and only some of the data is labelled. Many real world machine learning problems fall into this area and a mixture of supervised and unsupervised learning methods will be used to analyse data<sup>[3](#myfootnote3)</sup> .  
+Semi-Supervised Machine Learning is used for problems with input data and only some of the data is labelled. Many real world machine learning problems fall into this area and a mixture of supervised and unsupervised learning methods will be used to analyse data<sup>[7](#myfootnote7)</sup> .  
 
-Depending on the desired outcome of machine learning, different techniques may be applied<sup>[3](#myfootnote3)</sup>. 
+Depending on the desired outcome of machine learning, different techniques may be applied<sup>[8](#myfootnote8)</sup>. 
 * Classification - Classifiers act as functions where the training data is used to adjust the parameters of the function model. The quality of the data is important in machine learning classification. Independent / unbiased and distinct features are required as inputs to promote accuracy.
 * Regression - Estimating the relationships between variables.
 * Clustering - Inputs are divided into groups that are unknown.
@@ -143,13 +130,13 @@ Depending on the desired outcome of machine learning, different techniques may b
 
 ### Scikit-learn Project
 
-The scikit-learn project<sup>[3](#myfootnote3)</sup> provides an open source machine learning library for the Python programming language. The library is a collection of classes and functions that are imported into Python programs and centred around the NumPy and SciPy libraries. All objects within scikit-learn share three complementary interfaces:  
+The scikit-learn project<sup>[9](#myfootnote9)</sup> provides an open source machine learning library for the Python programming language. The library is a collection of classes and functions that are imported into Python programs and centred around the NumPy and SciPy libraries. All objects within scikit-learn share three complementary interfaces:  
 1. Estimator - Develops a fit method for learning a model from training data. 
 1. Predictor – Uses an array to produce predictions based on the learned parameters of the estimator and scores the accuracy.
 1. Transformer – To allow filtering and modification of data before feeding into learning algorithm.  
 
 ### Decision Tree in Machine Learning
-In YouTube video, Visualizing a Decision Tree – Machine Learning Recipes #2<sup>[8](#myfootnote8)</sup>, a decision tree is used as a predictive model to map observations about the data and to visualise how the classifier works. The goals are to import the Iris dataset, train a classifier, predict label for a new flower and visualize the decision tree. 
+In YouTube video, Visualizing a Decision Tree – Machine Learning Recipes #2<sup>[10](#myfootnote10)</sup>, a decision tree is used as a predictive model to map observations about the data and to visualise how the classifier works. The goals are to import the Iris dataset, train a classifier, predict label for a new flower and visualize the decision tree. 
 
 To begin numpy and sklearn packages and Iris data set are imported into Python. test_idx identifies one example of each type of flower. 
 
@@ -182,25 +169,25 @@ This demonstrates that, based on the testing data, the classifier was successful
 print(test_target) 
 print(clf.predict(test_data))
 ```
-To visualise how the classifier works, the decision tree<sup>[9](#myfootnote8)</sup> is exported in Graphviz format.
+To visualise how the classifier works, the decision tree<sup>[11](#myfootnote11)</sup> is exported in Graphviz format.
 <p align="center">
   <img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Iris%20Classifier%20Decision%20Tree.png" width="750px" height="500px"/></p>  
-Sepal Width is not referenced in the decision tree. XXXX
+
  
 ## Conclusion 
  
 ## References
 <a name="myfootnote1">1</a>: Visual Studio Markdown Extension, https://github.com/AlanWalk/Markdown-TOC  
-<a name="myfootnote1">1</a>: Wikipedia, Iris flower data set , https://en.wikipedia.org/wiki/Iris_flower_data_set  
-<a name="myfootnote2">2</a>: UCI, Machine Learning Repository, http://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data 
-<a name="myfootnote3">3</a>: Wikipedia, Ronald Fisher, https://en.wikipedia.org/wiki/Ronald_Fisher  
-<a name="myfootnote4">4</a>: Wikipedia, Linear discriminant analysis,  https://en.wikipedia.org/wiki/Linear_discriminant_analysis  
-<a name="myfootnote5">5</a>: StatQuest: Linear Discriminant Analysis (LDA) clearly explained,  https://www.youtube.com/watch?v=azXCzI57Yfc  
-<a name="myfootnote6">6</a>: Supervised and Unsupervised Machine Learning Algorithm, https://machinelearningmastery.com/supervised-and-unsupervised-machine-learning-algorithms/  
-<a name="myfootnote7">7</a>: API design for machine learning software: experiences from the scikit-learn project, https://arxiv.org/abs/1309.0238 )  
-<a name="myfootnote8">8</a>: Google Developers, YouTube Playlist Machine Learning Recipes with Josh Gordon https://www.youtube.com/playlist?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal  
-<a name="myfootnote8">8</a>: scikit-learn Documentation, http://scikit-learn.org/stable/modules/tree.html  
-<a name="myfootnote1">1</a>: Wikipedia, Machine Learning, https://en.wikipedia.org/wiki/Machine_learning 
+<a name="myfootnote2">2</a>: Wikipedia, Iris flower data set , https://en.wikipedia.org/wiki/Iris_flower_data_set  
+<a name="myfootnote3">3</a>: UCI, Machine Learning Repository, http://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data 
+<a name="myfootnote4">4</a>: Wikipedia, Ronald Fisher, https://en.wikipedia.org/wiki/Ronald_Fisher  
+<a name="myfootnote5">5</a>: Wikipedia, Linear discriminant analysis,  https://en.wikipedia.org/wiki/Linear_discriminant_analysis  
+<a name="myfootnote6">6</a>: StatQuest: Linear Discriminant Analysis (LDA) clearly explained,  https://www.youtube.com/watch?v=azXCzI57Yfc  
+<a name="myfootnote7">7</a>: Supervised and Unsupervised Machine Learning Algorithm, https://machinelearningmastery.com/supervised-and-unsupervised-machine-learning-algorithms/  
+<a name="myfootnote8">8</a>: API design for machine learning software: experiences from the scikit-learn project, https://arxiv.org/abs/1309.0238 )  
+<a name="myfootnote9">9</a>: Google Developers, YouTube Playlist Machine Learning Recipes with Josh Gordon https://www.youtube.com/playlist?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal  
+<a name="myfootnote10">10</a>: scikit-learn Documentation, http://scikit-learn.org/stable/modules/tree.html  
+<a name="myfootnote11">11</a>: Wikipedia, Machine Learning, https://en.wikipedia.org/wiki/Machine_learning 
 
 
 
