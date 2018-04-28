@@ -184,11 +184,7 @@ To visualise how the classifier works, the decision tree<sup>[11](#myfootnote11)
 <a name="myfootnote5">5</a>: Wikipedia, Linear discriminant analysis,  https://en.wikipedia.org/wiki/Linear_discriminant_analysis  
 <a name="myfootnote6">6</a>: StatQuest: Linear Discriminant Analysis (LDA) clearly explained,  https://www.youtube.com/watch?v=azXCzI57Yfc  
 <a name="myfootnote7">7</a>: Supervised and Unsupervised Machine Learning Algorithm, https://machinelearningmastery.com/supervised-and-unsupervised-machine-learning-algorithms/  
-<a name="myfootnote8">8</a>: API design for machine learning software: experiences from the scikit-learn project, https://arxiv.org/abs/1309.0238 )  
-<a name="myfootnote9">9</a>: Google Developers, YouTube Playlist Machine Learning Recipes with Josh Gordon https://www.youtube.com/playlist?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal  
-<a name="myfootnote10">10</a>: scikit-learn Documentation, http://scikit-learn.org/stable/modules/tree.html  
-<a name="myfootnote11">11</a>: Wikipedia, Machine Learning, https://en.wikipedia.org/wiki/Machine_learning 
-
-
-
-
+<a name="myfootnote8">8</a>: Wikipedia, Machine Learning, https://en.wikipedia.org/wiki/Machine_learning  
+<a name="myfootnote9">9</a>: API design for machine learning software: experiences from the scikit-learn project, https://arxiv.org/abs/1309.0238 )  
+<a name="myfootnote10">10</a>: Google Developers, YouTube Playlist Machine Learning Recipes with Josh Gordon https://www.youtube.com/playlist?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal  
+<a name="myfootnote11">11</a>: scikit-learn Documentation, http://scikit-learn.org/stable/modules/tree.html  
