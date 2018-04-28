@@ -1,13 +1,12 @@
 # Analysis of Iris Data Set in Python
 
-Files in Project_IRIS repository | Description  
-:------------------------------: | :------------------------------------
+Files in Project_IRIS Repository | Description  
+:--------------- | :---------------------------------------------
 iris_scatter.py | Python code to generate scatter plots of Iris data
 iris_hists.py | Python code to generate histograms displaying distribution of Iris feature dimensions
 iris_stats.py | Python code to request user input for Iris species and print associated statistical information 
 iris_means.py | Python code to generate bar charts comparing means of Iris feature dimensions
 iris_classify | Python code to define a classifier and predict Iris species based on features
-Graphs Folder | PNG files of outputs from Iris data analysis
 Graphs Folder | PNG files of outputs from Iris data analysis
 DATA Folder | CSV files of Iris data set and Iris statistics data set
 
