@@ -152,7 +152,7 @@ The scikit-learn project<sup>[9](#myfootnote9)</sup> provides an open source mac
 1. Transformer – To allow filtering and modification of data before feeding into learning algorithm.  
 
 ### Decision Tree in Machine Learning
-In YouTube video, Visualizing a Decision Tree – Machine Learning Recipes #2<sup>[10](#myfootnote10)</sup>, a decision tree is used as a predictive model to map observations about the data and to visualise how the classifier works. The goals are to import the Iris dataset, train a classifier, predict label for a new flower and visualize the decision tree. 
+In YouTube video, Visualizing a Decision Tree – Machine Learning Recipes #2<sup>[10](#myfootnote10)</sup>, a decision tree is used as a predictive model to map observations about the data and to visualise how the classifier works. The goals are to import the Iris dataset, train a classifier, predict label for a new flower and visualize the decision tree. The code contained in [iris_classify.py](https://github.com/healyshane/Project_IRIS/blob/master/iris_classify.py) was transcribed from Youtube video. Comments were added and additional code inserted to test predictions based on inputted feature values.  
 
 To begin numpy and sklearn packages and Iris data set are imported into Python. test_idx identifies one example of each type of flower. 
 
@@ -191,6 +191,12 @@ To visualise how the classifier works, the decision tree<sup>[11](#myfootnote11)
 
  
 ## Conclusion 
+Iris data set used as an example, why.
+Findings from analysis.
+Use of Python for analysing data, issue with strings - should use Pandas. 
+Extracting data based on certain parameter values is valuable skill. 
+Abstraction in machine learning for classifier. 
+
  
 ## References
 <a name="myfootnote1">1</a>: Visual Studio Markdown Extension, https://github.com/AlanWalk/Markdown-TOC  
