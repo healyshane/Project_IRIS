@@ -19,7 +19,7 @@ Shane Healy, April 2018
 
 <!-- /TOC -->
 
-To generate the table of contents, Markdown-toc extension was installed in Visual Studio. When contents of README.md are pasted into Visual Studio a table of contents may be generated. This was code was then pasted into README.md. 
+To generate the table of contents, Markdown-toc extension<sup>[1](#myfootnote1)</sup> was installed in Visual Studio. When contents of README.md are pasted into Visual Studio a table of contents may be generated. This was code was then pasted into README.md. 
 
 ## Introduction
 A description of repository contents are shown in table below.
@@ -175,6 +175,7 @@ Sepal Width is not referenced in the decision tree. XXXX
 ## Conclusion 
  
 ## References
+<a name="myfootnote1">1</a>: Visual Studio Markdown Extension, https://github.com/AlanWalk/Markdown-TOC 
 <a name="myfootnote1">1</a>: Wikipedia, Iris flower data set , https://en.wikipedia.org/wiki/Iris_flower_data_set  
 <a name="myfootnote2">2</a>: UCI, Machine Learning Repository, http://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data  
 <a name="myfootnote3">3</a>: Wikipedia, Ronald Fisher, https://en.wikipedia.org/wiki/Ronald_Fisher  
