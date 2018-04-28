@@ -33,7 +33,7 @@ iris_stats.py | Python code to request user input for Iris species and print ass
 iris_means.py | Python code to generate bar charts comparing means of Iris feature dimensions
 iris_classify | Python code to define a classifier and predict Iris species based on features
 Graphs Folder | PNG files of outputs from Iris data analysis
-DATA Folder | CSV files of Iris data set and Iris statistics data set
+DATA Folder | CSV files of Iris data set and Iris statistics data set 
 
 
 
