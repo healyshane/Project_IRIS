@@ -22,7 +22,7 @@ Shane Healy, April 2018
 To generate the table of contents, Markdown-toc extension<sup>[1](#myfootnote1)</sup> was installed in Visual Studio. The text of README.md file was pasted into Visual Studio .md file and, by selecting option "Markdown TOC: Insert/Update", the code representing the table of contents was generated. This code was then pasted into README.md. 
 
 ## Introduction
-The objective of this project is to reasearch the Iris data set and write Python code to analyse the data set.  
+The objective of this project is to research the Iris data set and write Python code to analyse the data set.  
 A description of repository contents are shown in table below.
 
 Project_IRIS Repository | Description  
@@ -62,7 +62,7 @@ Linear discriminant analysis is a method used in statistics, pattern recognition
 
 ## Visualisation of Iris Data Set
 ### Scatter Plots
-To generate scatter plot for the Iris data set, [iris_scatter.py](https://github.com/healyshane/Project_IRIS/blob/master/iris_scatter.py) was written. Empty lists were created for Iris features (Sepal Length, Sepal Width, Petal Length, Petal Width) and Species. The Iris data file is opened and by iterating through each line and splitting each line using a delimiter of the comma, the values associated with features and species are appended into individual lists. As Iris species is a word as opposed to a number, this is appended as a string. Matplotlib.pyplot is imported and used to create the  scatter plots shown in this section. The plots are customised by specifying colours, markers, legend, title, axis labels and grid visibility. 
+To generate scatter plot for the Iris data set, [iris_scatter.py](https://github.com/healyshane/Project_IRIS/blob/master/iris_scatter.py) was written. Empty lists were created for Iris features (Sepal Length, Sepal Width, Petal Length, Petal Width) and Species. The Iris data file is opened and by iterating through each line and splitting each line using a delimiter of the comma, the values associated with features and species are appended into individual lists. As Iris species is a word as opposed to a number, this is appended as a string. Matplotlib.pyplot, a Python plotting library, is imported and used to create the scatter plots shown in this section. The plots are customised by specifying colours, markers, legend, title, axis labels and grid visibility. 
 
 In Scatter Plot of Iris Species, while a general pattern for the feature sizes of different species is evident there is also overlapping. It is not obvious what feature dimensions are associated with a particular species of Iris. This property is why the Iris data set is frequently used as a sample data set for testing of machine learning algorithms.    
 
@@ -77,7 +77,8 @@ Petal length and petal width stand out from below scatter plots as being definin
 <img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Sepal%20Length%20V%20Sepal%20Width.png" width="425" height="375"/> <img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Sepal%20Width%20V%20Petal%20Width.png" width="425" height="375"/>  
 
 ### Histograms
-histogram.py
+To visualise the distribution of values for different features in Iris data set [iris_hists.py](https://github.com/healyshane/Project_IRIS/blob/master/iris_hists.py) was written. Numpy and matplotlob.pyplot are imported. 
+NumPy is a package for scientific computing with Python and deals efficiently with arrays of data. An array is generated from the test contained in Iris data set. Variables are identified to individually hold the data for each feature of data set as given by index value. A histogram is plotted to display the distribution of values for each feature. The plots are customised by specifying colours, edgecolour, title, axis labels and grid visibility. Sepal width would seem to be the most normally distributed feature.
 
   <img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Histogram%20of%20Petal%20Length.png" width="425px" height="283px"/> <img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Histogram%20of%20Petal%20Width.png" width="425px" height="283px"/></p>
   
@@ -85,9 +86,12 @@ histogram.py
 
 ## Statistical Analysis
 
-iris_stats_py imports Iris data set, splits the data in lists and converts the Iris species names from strings to integers. 
-This results in a more consise data set that is easier to analyse. 
-The conversion is *Iris-setosa*  = o, *Iris-versicolor* = 1 and *Iris-virginica* = 2.
+To perform statistical analysis on Iris data set [iris_stats_py](https://github.com/healyshane/Project_IRIS/blob/master/iris_stats.py) was written. Empty lists were created for Iris features (Sepal Length, Sepal Width, Petal Length, Petal Width) and Species. The Iris data file is opened and by iterating through each line and splitting each line using a delimiter of the comma, the values associated with features and species are appended into individual lists. As Iris species is a word as opposed to a number, this is appended as a string.  
+A for loop iterates over the Species list and replaces the species name with an integer, the intention is to make this list more concise and easier to use in analysis. The conversion is *Iris-setosa*  = o, *Iris-versicolor* = 1 and *Iris-virginica* = 2.  
+A function called Iris is defined with input of species and feature. This function returns an array and the data within will reflect the species and feature referenced.  
+When running iris_stats.py the user is prompted to input a selection as shown below. 
+
+
 X
 X  
 
@@ -121,14 +125,14 @@ Machine learning uses statistics to give computer systems the ability to learn w
 
 ### Supervised and Unsupervised Machine Learning Algorithms 
 Supervised learning has input variables and an output variable. An algorithm is used to learn the mapping function from the input to the output. Objective with supervised learning is to be able to correctly predict the output given particular inputs. Within supervised learning, a classification problem would be where the output is a category while a regression problem would be where the output is a real value. 
-Unsupervised learning has input data but no corresponding outsput variables. An algorithm is used to model the structure of the data. Within unsupervised leaning, a clustering problem would be where groupings in the data is required while an association problem would be defining rules that govern the data. 
+Unsupervised learning has input data but no corresponding output variables. An algorithm is used to model the structure of the data. Within unsupervised leaning, a clustering problem would be where groupings in the data is required while an association problem would be defining rules that govern the data. 
 Semi-Supervised Machine Learning is used for problems with input data and only some of the data is labelled. Many real world machine learning problems fall into this area and a mixture of supervised and unsupervised learning methods will be used to analyse data<sup>[3](#myfootnote3)</sup> .  
 
 Depending on the desired outcome of machine learning, different techniques may be applied<sup>[3](#myfootnote3)</sup>. 
 * Classification - Classifiers act as functions where the training data is used to adjust the parameters of the function model. The quality of the data is important in machine learning classification. Independent / unbiased and distinct features are required as inputs to promote accuracy.
 * Regression - Estimating the relationships between variables.
 * Clustering - Inputs are divided into groups that are unknown.
-* Denstiy Estimation - Determines the distribution of inputs
+* Density Estimation - Determines the distribution of inputs
 * Dimensionality reduction - Simplifies inputs by mapping them to a lower-dimensional space. Linear discriminant analysis, as used by Fisher to classify Iris class, is an example of dimensionality reduction. 
 
 ### Scikit-learn Project
