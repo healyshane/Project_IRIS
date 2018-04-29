@@ -52,7 +52,13 @@ Sepal Length(cm) | Sepal Width(cm) | Petal Length(cm) | Petal Width(cm) | Specie
 7 |	3.2 |	4.7	| 1.4	| *Iris-versicolor*	
 6.3 | 3.3 |	6 |	2.5 |	*Iris-virginica*
 
-
+A Google search of term "Iris data set" returns 6,600,000 results. Reasons for it being so frequently refernced:
+* Real data collected through measurement of features
+* Small data set that is manageable
+* Demonstrates complexity With four features and three species
+* Easily understood features
+* Well maintained by UCI, Machine Learning Repository, there have been approx.1.8 million hits on Iris data set since 2007
+* Suited for testing machine learning algorithms as it has been researched indepth and other peoples analysis is available for comparison
 
 Sir Ronald Fisher was a British statistician and geneticist. He helped create the foundation for modern statistical science and in 1936 he introduced the Iris flower data set as an example of discriminant analysis<sup>[4](#myfootnote4)</sup>.  
 Fisher used linear discriminant analysis to classify Iris class based on four features.  
@@ -196,6 +202,7 @@ Findings from analysis.
 Use of Python for analysing data, issue with strings - should use Pandas. 
 Extracting data based on certain parameter values is valuable skill. 
 Abstraction in machine learning for classifier. 
+Using GitHub
 
  
 ## References
