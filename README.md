@@ -78,7 +78,7 @@ Petal length and petal width stand out from below scatter plots as being definin
 
 ### Histograms
 To visualise the distribution of values for different features in Iris data set [iris_hists.py](https://github.com/healyshane/Project_IRIS/blob/master/iris_hists.py) was written. Numpy and matplotlob.pyplot are imported. 
-NumPy is a package for scientific computing with Python and deals efficiently with arrays of data. An array is generated from the test contained in Iris data set. Variables are identified to individually hold the data for each feature of data set as given by index value. A histogram is plotted to display the distribution of values for each feature. The plots are customised by specifying colours, edgecolour, title, axis labels and grid visibility. Sepal width would seem to be the most normally distributed feature.
+NumPy is a package for scientific computing with Python and deals efficiently with arrays of data. An array is generated from the text contained in Iris data set. Variables are identified to individually hold the data for each feature of data set as given by index value. A histogram is plotted to display the distribution of values for each feature. The plots are customised by specifying colours, edgecolour, title, axis labels and grid visibility. Sepal width would seem to be the most normally distributed feature.
 
   <img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Histogram%20of%20Petal%20Length.png" width="425px" height="283px"/> <img src="https://github.com/healyshane/Project_IRIS/blob/master/Graphs/Histogram%20of%20Petal%20Width.png" width="425px" height="283px"/></p>
   
@@ -201,8 +201,7 @@ Abstraction in machine learning for classifier.
 ## References
 <a name="myfootnote1">1</a>: Visual Studio Markdown Extension, https://github.com/AlanWalk/Markdown-TOC  
 <a name="myfootnote2">2</a>: Wikipedia, Iris flower data set , https://en.wikipedia.org/wiki/Iris_flower_data_set  
-<a name="myfootnote3">3</a>: UCI, Machine Learning Repository, http://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data 
-<a name="myfootnote4">4</a>: Wikipedia, Ronald Fisher, https://en.wikipedia.org/wiki/Ronald_Fisher  
+<a name="myfootnote3">3</a>: UCI, Machine Learning Repository, http://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data <a name="myfootnote4">4</a>: Wikipedia, Ronald Fisher, https://en.wikipedia.org/wiki/Ronald_Fisher  
 <a name="myfootnote5">5</a>: Wikipedia, Linear discriminant analysis,  https://en.wikipedia.org/wiki/Linear_discriminant_analysis  
 <a name="myfootnote6">6</a>: StatQuest: Linear Discriminant Analysis (LDA) clearly explained,  https://www.youtube.com/watch?v=azXCzI57Yfc  
 <a name="myfootnote7">7</a>: Supervised and Unsupervised Machine Learning Algorithm, https://machinelearningmastery.com/supervised-and-unsupervised-machine-learning-algorithms/  
