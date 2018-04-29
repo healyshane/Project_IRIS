@@ -198,9 +198,9 @@ To visualise how the classifier works, the decision tree<sup>[11](#myfootnote11)
  
 ## Conclusion 
 * The Iris data set is a benchmark data set on which an enormous amount of analysis has been performed. This establishes it as an excellent data set to test new algorithms for machine learning.
-Findings from analysis.
-* The scatter plots displayed that petal length and petal width stand out as being defining individual features for Iris setosa.
-Sepal width has the least variation in mean values for features implying it is not a good feature by which Iris species could be classified. These statements are backed up by referencing the decision tree figure where petal length is the first condition tested and sepal width does not feature in the tree. 
+* The scatter plots displayed that petal length and petal width stand out as being defining individual features for Iris setosa.  
+Sepal width has the least variation in mean values for features implying it is not a good feature by which Iris species could be classified.  
+These statements are backed up by referencing the decision tree figure where petal length is the first condition tested and sepal width does not feature in the tree. 
 * The Python libraries, NumPy and Matplotlib, used in this project are powerful and easily used to analyse data. The inclusion of data in string format introduced difficulty during analysis and the Pandas Python package would be considered for future analysis of labelled data. 
 * A key learning from this project was the importance of being able to iterate through a data set and extract a subset of data in which you are interested.  
 * Libraries such as Scikit-learn are abstracted to a high level and allow inexperienced people delve into machine learning. For example, in [iris_classify.py](https://github.com/healyshane/Project_IRIS/blob/master/iris_classify.py) only two lines of code is required to call a classifier and fit the training data to the model. 
