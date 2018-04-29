@@ -55,7 +55,7 @@ Sepal Length(cm) | Sepal Width(cm) | Petal Length(cm) | Petal Width(cm) | Specie
 A Google search of term "Iris data set" returns 6,600,000 results. Reasons for it being so frequently refernced:
 * Real data collected through measurement of features
 * Small data set that is manageable
-* Demonstrates complexity With four features and three species
+* Demonstrates complexity with four features and three species
 * Easily understood features
 * Well maintained by UCI, Machine Learning Repository, there have been approx.1.8 million hits on Iris data set since 2007
 * Suited for testing machine learning algorithms as it has been researched indepth and other peoples analysis is available for comparison
@@ -197,12 +197,14 @@ To visualise how the classifier works, the decision tree<sup>[11](#myfootnote11)
 
  
 ## Conclusion 
-Iris data set used as an example, why.
+* The Iris data set is a benchmark data set on which an enormous amount of analysis has been performed. This establishes it as an excellent data set to test new algorithms for machine learning.
 Findings from analysis.
-Use of Python for analysing data, issue with strings - should use Pandas. 
-Extracting data based on certain parameter values is valuable skill. 
-Abstraction in machine learning for classifier. 
-Using GitHub
+* The scatter plots displayed that petal length and petal width stand out as being defining individual features for Iris setosa.
+Sepal width has the least variation in mean values for features implying it is not a good feature by which Iris species could be classified. These statements are backed up by referencing the decision tree figure where petal length is the first condition tested and sepal width does not feature in the tree. 
+* The Python libraries, NumPy and Matplotlib, used in this project are powerful and easily used to analyse data. The inclusion of data in string format introduced difficulty during analysis and the Pandas Python package would be considered for future analysis of labelled data. 
+* A key learning from this project was the importance of being able to iterate through a data set and extract a subset of data in which you are interested.  
+* Libraries such as Scikit-learn are abstracted to a high level and allow inexperienced people delve into machine learning. For example, in [iris_classify.py](https://github.com/healyshane/Project_IRIS/blob/master/iris_classify.py) only two lines of code is required to call a classifier and fit the training data to the model. 
+* Using GitHub to document this project was a learning experience and it is an excellent tool for maintaining software projects. Creating the README.md file in Markdown language, although cumbersome at beginning, produces a high quality result.  
 
  
 ## References
